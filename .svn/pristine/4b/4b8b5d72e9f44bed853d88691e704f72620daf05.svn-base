@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<body style="background-color: #f6f6f6;user-select: none;">
+		<div class="navBar detailNav">
+			<div class="back">
+				<a href="index.html"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="title">
+				<img src="images/icon_photo.jpg" class="detailUser">
+				<span class="detailName">拯救世界的猫</span>
+				<span class="detailTime">07-11</span>
+			</div>
+			<div class="rightIcon">
+				<a href="javascript:;" class="focusBtn">关注</a>
+			</div>
+		</div>
+		<!-- navBar----end -->
+		<div class="details">
+			<div class="text">
+				<p id="copyArea" class="textCopy">冷风过境，</br>冬天终于如期而至。</br>寒冷的气息混合着高三年级的肃杀气氛，</br>充斥着整个年级，</br>大家似乎都成了绷紧的橡皮筋。</br>而陆之昂也真的转去了理科班</p>
+			</div>
+			<p><a href="talk.html" class="talkTag">#毕业季的你</a></p>
+			<div class="indexImg">
+				<img src="images/pic.jpg">
+			</div>
+		</div>
+		<!-- 详情----end -->
+		<div class="commenListTitle">共<span>1235</span>条评论</div>
+		<div class="comList">
+			<div class="list">
+				<div class="commentInfo">
+					<div class="comleft"><a href="authorProfile.html"><img src="images/icon_photo.jpg" class="comIcon h60"></a></div>
+					<div class="comcenter">
+						<p class="title"><a href="authorProfile.html">可爱与美貌并存</a></p>
+						<div class="replay">
+							<p class="text textCopy">这辈子，已经注定了太多的无奈，下辈了，我要快乐的生活。<span class="comtime">今天 9:20</span></p>
+						</div>
+
+					</div>
+					<div class="comright">
+						<p class="heartIcon">
+							<img src="images/icon_heart.png" class="heart">
+							<img src="images/icon_heartBule.png" class="heartActive">
+							<span>5.5万</span>
+						</p>
+					</div>
+				</div>
+				<div class="replayContent">
+					<div class="commentInfo">
+						<div class="comleft"><a href="authorProfile.html"><img src="images/icon_photo2.jpg" class="comIcon h60"></a></div>
+						<div class="comcenter">
+							<p class="title"><a href="authorProfile.html">追光的小男孩</a></p>
+							<div class="replay">
+								<p class="text textCopy">假如生命可以轮回，我不想再做让自己遗憾的事情。<span class="comtime">今天 9:20</span></p>
+							</div>
+						</div>
+						<div class="comright">
+							<p class="heartIcon">
+								<img src="images/icon_heart.png" class="heart">
+								<img src="images/icon_heartBule.png" class="heartActive">
+								<span>5</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<p class="open">展开<i>26</i>条回复</p>
+			</div>
+			<div class="list">
+				<div class="commentInfo">
+					<div class="comleft"><a href="authorProfile.html"><img src="images/quyuan.png" class="comIcon h60"></a></div>
+					<div class="comcenter">
+						<p class="title"><a href="authorProfile.html">甜唠嗑</a></p>
+						<div class="replay">
+							<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。<span class="comtime">今天 9:20</span></p>
+						</div>
+
+					</div>
+					<div class="comright">
+						<p class="heartIcon">
+							<img src="images/icon_heart.png" class="heart">
+							<img src="images/icon_heartBule.png" class="heartActive">
+							<span>5682</span>
+						</p>
+					</div>
+				</div>
+				<div class="replayContent">
+					<div class="commentInfo">
+						<div class="comleft"><a href="authorProfile.html"><img src="images/icon_photo.jpg" class="comIcon h60"></a></div>
+						<div class="comcenter">
+							<p class="title"><a href="authorProfile.html">贝壳女孩</a></p>
+							<div class="replay">
+								<p class="text textCopy">假如生命可以轮回，我不想再做让自己遗憾的事情。<span class="comtime">今天 9:20</span></p>
+							</div>
+						</div>
+						<div class="comright">
+							<p class="heartIcon">
+								<img src="images/icon_heart.png" class="heart">
+								<img src="images/icon_heartBule.png" class="heartActive">
+								<span>5</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<p class="open">展开<i>18</i>条回复</p>
+			</div>
+			<div class="list">
+				<div class="commentInfo">
+					<div class="comleft"><a href="authorProfile.html"><img src="images/icon_photo.jpg" class="comIcon h60"></a></div>
+					<div class="comcenter">
+						<p class="title"><a href="authorProfile.html">可爱与美貌并存</a></p>
+						<div class="replay">
+							<p class="text textCopy">这辈子，已经注定了太多的无奈，下辈了，我要快乐的生活。<span class="comtime">今天 9:20</span></p>
+						</div>
+
+					</div>
+					<div class="comright">
+						<p class="heartIcon">
+							<img src="images/icon_heart.png" class="heart">
+							<img src="images/icon_heartBule.png" class="heartActive">
+							<span>25</span>
+						</p>
+					</div>
+				</div>
+				<div class="replayContent">
+					<div class="commentInfo">
+						<div class="comleft"><a href="authorProfile.html"><img src="images/icon_photo2.jpg" class="comIcon h60"></a></div>
+						<div class="comcenter">
+							<p class="title"><a href="authorProfile.html">追光的小男孩</a></p>
+							<div class="replay">
+								<p class="text textCopy"><span class="replayTo">回复<i>海棠</i>:</span><span>假如生命可以轮回，我不想再做让自己遗憾的事情。</span><span class="comtime">今天 9:20</span></p>
+							</div>
+							<!-- <p class="date"></p> -->
+						</div>
+						<div class="comright">
+							<p class="heartIcon">
+								<img src="images/icon_heart.png" class="heart">
+								<img src="images/icon_heartBule.png" class="heartActive">
+								<span>5</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<p class="open">展开<i>26</i>条回复</p>
+			</div>
+			<div class="list">
+				<div class="commentInfo">
+					<div class="comleft"><a href="authorProfile.html"><img src="images/quyuan.png" class="comIcon h60"></a></div>
+					<div class="comcenter">
+						<p class="title"><a href="authorProfile.html">甜唠嗑</a></p>
+						<div class="replay">
+							<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。<span class="comtime">今天 9:20</span></p>
+						</div>
+
+					</div>
+					<div class="comright">
+						<p class="heartIcon">
+							<img src="images/icon_heart.png" class="heart">
+							<img src="images/icon_heartBule.png" class="heartActive">
+							<span>258</span>
+						</p>
+					</div>
+				</div>
+				<div class="replayContent">
+					<div class="commentInfo">
+						<div class="comleft"><a href="authorProfile.html"><img src="images/icon_photo.jpg" class="comIcon h60"></a></div>
+						<div class="comcenter">
+							<p class="title"><a href="authorProfile.html">贝壳女孩</a></p>
+							<div class="replay">
+								<p class="text textCopy">假如生命可以轮回，我不想再做让自己遗憾的事情。<span class="comtime">今天 9:20</span></p>
+							</div>
+						</div>
+						<div class="comright">
+							<p class="heartIcon">
+								<img src="images/icon_heart.png" class="heart">
+								<img src="images/icon_heartBule.png" class="heartActive">
+								<span>5</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<p class="open">展开<i>18</i>条回复</p>
+			</div>
+
+
+		</div>
+		<!-- 评论--end -->
+		<div class="footer talkFooter commentInputBox">
+			<div class="talkInput">
+				<div class="input" contenteditable="true"></div>
+				<img src="images/icon_send.png" class="iconSend">
+			</div>
+			<ul class="listIcons">
+				<li class="footHeart active">
+					<img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive"><span>23</span>
+				</li>
+				<li><img src="images/icon_mess.png"><span>888</span></li>
+				<li><a href="shareImg.html"><img src="images/icon_shaare2.png"><span>25</span></a></li>
+			</ul>
+		</div>
+		<div class="footer talkFooter replayInputBox">
+			<div class="talkInput">
+				<div class="input" contenteditable="true"></div>
+				<p class="placeholder">回复@</p>
+				<img src="images/icon_send.png" class="iconSend">
+			</div>
+		</div>
+		<div class="tipBg"></div>
+		<div class="tipBox">
+			<p class="copyText" id="copytextBtn" data-clipboard-text=''><a href="javascript:;">复制文本</a></p>
+			<p class="copyLink" id="copylinkBtn" data-clipboard-text=''><a href="javascript:;">复制链接</a></p>
+			<p class="delete"><a href="javascript:;">删除</a></p>
+			<p class="edit"><a href="publishCopy.html">编辑</a></p>
+			<p class="tipoff"><a href="tipOff.html">举报</a></p>
+			<p class="cancle"><a href="javascript:;">取消</a></p>
+		</div>
+		<div class="toastTip">关注成功</div>
+		<!-- 长按复制弹窗--end -->
+
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/commen.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/copyText.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				//获取屏幕高度
+				var Wheight = window.innerHeight;
+				var bottomHeight = $(".footer").outerHeight();
+				$("body").height(Wheight);
+
+				//按百分比设置不同手机屏图片高度
+				$('.details .indexImg').css({
+					'height': Wheight * 0.28
+				});
+				$('.details').css({
+					'height': Wheight - bottomHeight - 10
+				});
+
+				//滚动到不同区域输入框样式
+				$(window).bind('scroll', showInput)
+
+				function showInput() {
+					var windowScrill = $(window).scrollTop();
+					var detailHeight = $('.details').offset().top;
+					if (windowScrill > detailHeight) {
+						$(".talkFooter").addClass("focus");
+					} else {
+						$(".talkFooter").removeClass("focus");
+					}
+				}
+
+				//软键盘拉起收回输入框样式
+				$(window).resize(function() {
+					var winHeight = window.innerHeight;
+					if (winHeight < Wheight) {
+						//软键盘拉起
+						$(".talkFooter").addClass("focus");
+						$(window).unbind('scroll', showInput);
+					} else {
+						$(".replayInputBox").hide();
+						$(".commentInputBox").show();
+						if (!$(".input").html().length) {
+							showInput();
+							$(window).bind('scroll', showInput);
+						} else {
+							$(".talkFooter").addClass("focus");
+						}
+					}
+				})
+
+				//评论输入框获取焦点效果
+				$(".talkInput .input").focus(function() {
+					$(".talkFooter").addClass("focus");
+				});
+
+				//输入框输入效果
+				$(".input").keyup(function() {
+					if ($(this).html().length) {
+						$(".placeholder").hide();
+						$(".iconSend").show();
+					} else {
+						$(".placeholder").show();
+						$(".iconSend").hide();
+					}
+				})
+				//模拟回复数据
+				var arr = [{
+					"id": "0001",
+					"username": "大诗人",
+					"userImg": "images/quyuan.png",
+					"comtext": "其实孤身并不意味着孤独，我只是喜欢独自一人路过山川湖海",
+					"time": "昨天 12:58",
+					"heart": "8"
+				}, {
+					"id": "0002",
+					"username": "小凉凉",
+					"userImg": "images/icon_photo2.jpg",
+					"comtext": "拥抱自己比拥抱世界容易的多也快乐的多",
+					"time": "6/15 12:58",
+					"heart": "29"
+				}, {
+					"id": "0003",
+					"username": "屈原",
+					"userImg": "images/icon_photo.jpg",
+					"comtext": "孤独不曾远离，幸福却也无处不在，只是自己总是不愿意去拾起那些飘落，只想把希望留给那些等待的人，他们也需要心灵的美酒",
+					"time": "昨天 12:58",
+					"heart": "8"
+				}, {
+					"id": "0004",
+					"username": "奶泡想吃奶昔",
+					"userImg": "images/quyuan.png",
+					"comtext": "每个人都在这里没日没夜的穿梭。灯火繁华的城市、它也很寂寞。",
+					"time": "6/15 12:58",
+					"heart": "29"
+				}]
+				$(".comList").on("click", '.open', function() {
+					for (i of arr) {
+						var str = '';
+						str += '<div class="commentInfo" id="' + i.id + '"><div class="comleft"><a href="authorProfile.html"><img src="' + i.userImg +
+							'" class="comIcon h60"></a></div><div class="comcenter"><p class="title"><a href="authorProfile.html">' + i.username +
+							'</a></p><div class="replay"><p class="text textCopy">' + i.comtext + '<span class="comtime">' + i.time +
+							'</span></p></div></div><div class="comright"><p class="heartIcon"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive"><span>' +
+							i.heart + '</span></p></div></div>';
+						$(this).prev(".replayContent").append(str)
+					}
+					$(this).html("展开更多回复")
+				})
+				//发表评论
+				var userName = $(".detailName").html();
+				var userPhoto = $(".detailUser").attr('src');
+				$(".commentInputBox .iconSend").click(function() {
+					// var D = new Date();
+					// var date = D.getFullYear() + '/' + (D.getMonth() + 1) + '/' + D.getDate();
+					// var time = D.getHours() + ':' + D.getMinutes();
+					var text = $(".commentInputBox .input").html();
+					var strComment = '<div class="list"><div class="commentInfo"><div class="comleft"><a href="authorProfile.html"><img src="' + userPhoto +
+						'" class="comIcon h60"></a></div><div class="comcenter"><p class="title"><a href="authorProfile.html">' + userName +
+						'</a></p><div class="replay"><p class="text textCopy">' + text +
+						'<span class="comtime">刚刚</span></p></div></div><div class="comright"><p class="heartIcon"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive"><span>0</span></p></div></div><div class="replayContent"></div><p class="open hide">展开<i>0</i>条回复</p></div>';
+					$(".comList").prepend(strComment);
+					$(".input").html('');
+					$(".iconSend").hide();
+				})
+				//回复评论
+				$(".comList").on("click", '.replay', function() {
+					$(".commentInfo").removeClass("currentReplay");
+					$(this).parents(".commentInfo").addClass("currentReplay");
+					$(".replayInputBox").show().find(".input").focus();
+					$(".commentInputBox").hide();
+					var commentName = $(".currentReplay").find(".comcenter .title").text();
+					$(".placeholder").html("回复@"+commentName);
+				})
+				$(".replayInputBox .iconSend").click(function() {
+					var text = $(".replayInputBox .input").html();
+					var commentName = $(".currentReplay").find(".comcenter .title").text();
+					var strReplay = '<div class="commentInfo"><div class="comleft"><img src="' + userPhoto +
+						'" class="comIcon h60"></div><div class="comcenter"><p class="title">' + userName +
+						'</p><div class="replay"><p class="text textCopy"><span class="replayTo">回复<i>'+commentName+'</i>:</span><span>' + text +
+						'</span><span class="comtime">刚刚</span></p></div></div><div class="comright"><p class="heartIcon"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive"><span>0</span></p></div></div>';
+					$(".currentReplay").parents(".list").find(".replayContent").append(strReplay);
+					$(".replayInputBox").hide();
+					$(".commentInputBox").show();
+					$(".input").html('');
+					$(".iconSend").hide();
+				})
+				
+
+				//收藏点击效果
+				$(".footHeart").click(function() {
+					$(this).toggleClass('active');
+					var num = parseInt($(this).find('span').html());
+					if ($(this).hasClass("active")) {
+						$(this).find('span').html(parseInt(num + 1))
+					} else {
+						$(this).find('span').html(num - 1)
+					}
+				})
+				$(".comList").on("click", '.heartIcon', function() {
+					$(this).toggleClass('active');
+					var num = parseInt($(this).find('span').html());
+					if ($(this).hasClass("active")) {
+						$(this).find('span').html(parseInt(num + 1))
+					} else {
+						$(this).find('span').html(num - 1)
+					}
+				})
+
+
+
+
+			})
+		</script>
+	</body>
+</html>

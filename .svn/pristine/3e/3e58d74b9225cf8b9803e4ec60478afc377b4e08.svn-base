@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body style="background-color: #f6f6f6;">
+		<div class="navBar">
+			<div class="back">
+				<a href="publishCopy.html"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			
+			<div class="searchInput">
+				<a href="search.html">
+				<input type="text" name="" id="" value="" placeholder="搜索更多话题" class="search" />
+				<img src="images/icon_search.png" alt="" class="searchIcon">
+				<img src="images/icon_remove.png" alt="" class="removeIcon">
+				</a>
+			</div>
+			
+			<div class="rightIcon">
+				<a href="">搜索</a>
+			</div>
+			<div class="rightIcon searchCancle">
+				<a href="index.html">取消</a>
+			</div>
+			
+		</div>
+		<!-- nav----end -->
+		<div class="subNav pTop">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="navText active">六月</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">夏天</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">问候</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">正能量</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">节日</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">相关节日</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">问候</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">签名说说</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">问候</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">正能量</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">签名</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">节日</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="">
+			
+			<div class="talkBox">
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代
+				</p>
+				<p class="num"><span>28</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事
+				</p>
+				<p class="num"><span>38</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代
+				</p>
+				<p class="num"><span>8</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代遗憾的事
+				</p>
+				<p class="num"><span>3528</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代遗憾的事遗憾的事
+				</p>
+				<p class="num"><span>3</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代
+				</p>
+				<p class="num"><span>328</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代
+				</p>
+				<p class="num"><span>3528</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代
+				</p>
+				<p class="num"><span>528</span>人参与</p>
+				</a>
+			</div>
+			
+		</div>
+		</div>
+		<!-- 话题列表列表--end -->
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				var swiper = new Swiper('.swiper-container', {
+					slidesPerView : 5.5
+					
+				})
+				//搜索框聚焦效果
+				$(".search").keyup(function(){
+					if($(this).val().length){
+						$(".removeIcon").show();
+						$(".navBar").addClass("searchNavBar");
+						$(".mainSearch").hide();
+						$(".searchResult").show();
+					}else {
+						$(".navBar").removeClass("searchNavBar");
+						$(".mainSearch").show();
+						$(".searchResult").hide();
+					}
+				})
+				//清空输入内容
+				$(".removeIcon").click(function(){
+					$(".search").val('');
+					$(".search").focus();
+				})
+			})
+		</script>
+	</body>
+</html>

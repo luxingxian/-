@@ -1,0 +1,932 @@
+
+body {
+	background-color: #f6f6f6;
+}
+.draftList {
+	background-color: #fff;
+	padding:2.8125rem 4% 0 4%;
+}
+.draftList .list {
+	border-bottom: 1px solid #eee;
+	padding: 1.25rem 0;
+}
+.draftList .list p {
+	color: #222;
+	font-size: 0.875rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.draftList .list .date {
+	margin-top: 0.625rem;
+	font-size: 0.6875rem;
+	color: #999;
+}
+.draftList .list .date span {
+	margin-right: 0.625rem;
+}
+.draftList a:last-child .list {
+	border: none;
+}
+/* --------------草稿箱----end */
+
+.info {
+	background-color: #fff;
+	padding-left: 4%;
+}
+.info .infoList {
+	height: 3.75rem;
+	line-height: 3.75rem;
+	display: flex;
+	font-size: 0.875rem;
+}
+.info .label {
+	width: 20%;
+	
+	color: #999;
+}
+.info .infoContent {
+	flex: 1;
+	border-bottom: 1px solid #eee;
+	position: relative;
+}
+.info .infoContent input.nameInput,.info .infoContent input.phoneInput {
+	color: #222;
+	outline: none;
+	border: 0;
+	width: 85%;
+}
+.info .infoContent img {
+	height: 0.875rem;
+	width: auto;
+	position: absolute;
+	top: 38.3%;
+	right: 4%;
+}
+.info .sexList {
+	height: 7.1875rem;
+}
+.sex {
+	color: #666;
+	position: relative;
+}
+.sex .radio {
+	position: absolute;
+	top:2.8125rem;
+}
+.sextext {
+	color: #222;
+}
+.sex label {
+	background: url(../images/radio1.png) no-repeat center left;
+	background-size: 0.875rem;
+	padding-left: 1.25rem;
+}
+.sex label.man {
+	margin-right: 5.625rem;
+}
+.sex .checked {
+	background-image: url(../images/radio2.png);
+}
+.sex input {
+	display: none;
+}
+.infoContent textarea {
+	line-height: 1.375rem;
+	width: 85%;
+	color: #222;
+	padding: 1.125rem 0;
+}
+.info .textList {
+	height: 7rem;
+}
+/* ----------------我的资料-----end */
+.attentionList {
+	padding-left: 0.9375rem;
+	background-color: #fff;
+}
+.attentionList .list {
+	height: 4rem;
+	display: flex;
+}
+.attentionList .ptoto {
+	margin-right: 0.75rem;
+}
+.attentionList .ptoto img {
+/* 	height: 1.875rem;
+	width: 1.875rem;
+	border-radius: 50%;
+	overflow: hidden; */
+	margin-top: 0.75rem;
+}
+.attentionList .dir {
+	border-bottom: 1px solid #eee;
+	padding: 0.75rem 0.9375rem 0.75rem 0;
+	flex: 1;
+	overflow: hidden;
+}
+.attentionList .name {
+	color: #222;
+	font-size: 0.875rem;
+}
+.attentionList .name span {
+	color: #999;
+	font-size: 0.75rem;
+	margin-left: 1.25rem;
+}
+.attentionList .profile {
+	color: #666;
+	font-size: 0.6875rem;
+	/* margin-top: 0.125rem; */
+	height: 1rem;
+}
+.attentionList .name .action {
+	color: #ff5033;
+}
+/* ------我的关注/我的粉丝/人气作者--end */
+
+.homeContent {
+	background-color: #fff;
+	position: relative;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+.homeContent .homePhoto {
+	height: 3.75rem;
+	width: 3.75rem;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: 0.9375rem;
+	left: 50%;
+	transform: translate(-50%,0);
+	z-index: 100;
+}
+.homeContent .name {
+	padding-top: 2.1875rem;
+	text-align: center;
+	font-size: 0.9375rem;
+	color: #222;
+	position: relative;
+}
+.homeContent .dir {
+	font-size: 0.75rem;
+	color: #666;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 0.3125rem;
+}
+.homeContent .focus {
+	margin:0.875rem 0 1.25rem 0;
+}
+.homeContent .focus a{
+	font-size: 0.6875rem;
+	color: #999;
+	padding: 0 1.25rem;
+}
+.homeContent .focus a span {
+	color: #222;
+}
+.homeContent .focus a.fans {
+	border-left: 1px solid #999;
+}
+.homeContent .btnmessage a {
+	display: inline-block;
+	height: 1.5625rem;
+	line-height: 1.5625rem;
+	width: 5rem;
+	text-align: center;
+	color: #57cdd4;
+	font-size: 0.6875rem;
+	border: 1px solid #57cdd4;
+	border-radius: 1.5625rem;
+	margin-bottom: 1.25rem;
+}
+.homeContent .btnmessage a.btnfocus {
+	color: #fff;
+	background-color: #57cdd4;
+	margin-left: 0.625rem;
+}
+.homeContent .btnmessage a.focused {
+	background-color: #fff;
+	border-color: #999;
+	color: #999;
+}
+.copyTab {
+	background-color: #fff;
+	height: 2.5rem;
+	display: flex;
+}
+.copyTab a {
+	display: inline-block;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+	font-size: 0.875rem;
+	flex: 1;
+}
+.copyTab a.active {
+	color: #57cdd4;
+	position: relative;
+}
+.copyTab a.active::after {
+	content: '';
+	height:0.125rem;
+	width: 1.5625rem;
+	background-color: #57cdd4;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.myProfile {
+	padding-bottom: 3.0625rem;
+}
+.iconEdt {
+	height: 1rem;
+	width: 1rem;
+	margin-left: 0.3125rem;
+	position: absolute;
+	bottom:0.1875rem;
+	left: 63%;
+}
+.heartBule {
+	display: none;
+}
+.myProfile .collectIcon span{
+	color: #57cdd4;
+}
+.myProfile .collectIcon .heart{
+	display: none;
+}
+.myProfile .collectIcon .heartBule{
+	display: inline-block;
+}
+/* ------我的主页/人气作者的主页--end */
+.messTable {
+	padding: 2.8125rem 0.9375rem 0 2.5rem;
+	background-color: #fff;
+}
+.messTable div {
+	height: 3.75rem;
+	line-height: 3.75rem;
+	color: #222;
+	font-size: 1rem;
+	position: relative;
+}
+.messTable div.comment {
+	border-bottom: 1px solid #eee;
+}
+.messTable img.iconpre {
+	width: 0.875rem;
+	height: auto;
+	position: absolute;
+	top: 38%;
+	left: -1.5625rem;
+}
+.messTable img.lt {
+	height: 0.8125rem;
+	position: absolute;
+	top: 38%;
+	right: 0.9375rem;
+}
+.messTitle {
+	height: 2.5rem;
+	line-height: 2.5rem;
+	color: #222;
+	font-size: 0.75rem;
+	padding-left: 0.9375rem;
+}
+.messList {
+	background-color: #fff;
+}
+.messList .list {
+	padding-left: 3.5rem;
+	position: relative;
+}
+.messageBox.messList .list {
+	padding-left: 4.125rem;
+}
+.messList .list .photo .tipNum {
+	height: 0.75rem;
+	line-height: 0.75rem;
+	min-width: 0.75rem;
+	padding: 0.125rem;
+	width: auto;
+	text-align: center;
+	background-color: #f33;
+	color: #fff;
+	border: 1px solid #fff;
+	font-size:0.75rem;
+	border-radius: 0.75rem;
+	position: absolute;
+	top: -0.375rem ;
+	left:1.125rem;
+}
+.messList .list .photo {
+	position: absolute;
+	top: 25%;
+	left: 0.9375rem;
+}
+.messList .list div.messart {
+	height: 4.5625rem;
+	padding-top: 0.9375rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #eee;
+}
+.messList .list p {
+	padding-right:0.9375rem ;
+}
+.messList .name {
+	color: #222;
+	font-size: 0.75rem;
+	margin-bottom: 0.25rem;
+}
+.messageBox.messList .name {
+	color: #666;
+}
+.messList .name span {
+	color: #999;
+	float: right;
+	font-size: 0.625rem;
+	margin-right: 0.9375rem;
+}
+.messInfo {
+	font-size: 0.875rem;
+	color: #222;
+	height: 1.5625rem;
+	line-height: 1.5625rem;
+}
+/* --------消息------end */
+.notation .notationMess {
+	color: #222;
+	font-size: 0.875rem;
+}
+.notation .date {
+	color: #999;
+	font-size: 0.6875rem;
+	margin-top: 0.5rem;
+}
+.notation .date .time {
+	margin-left: 0.8125rem;
+}
+/* ---------通知列表-------end */
+.notationText {
+	padding:4.0625rem 1.25rem 1.25rem 1.25rem;
+}
+.notationText .title {
+	text-align: center;
+	line-height: 1.75rem;
+	font-size: #222;
+	font-size: 1.25rem;
+}
+.notationText .date {
+	color: #999;
+	font-size: 0.75rem;
+	margin-top: 0.625rem;
+}
+.notationText .date .time {
+	margin-left:0.9375rem ;
+}
+.notationText .text {
+	padding: 1.25rem 0;
+	font-size: 0.875rem;
+	color: #333;
+	line-height: 1.75rem;
+	text-indent:1.75rem;
+}
+/* ----------通知-----end */
+
+.letterContent {
+	padding: 2.8125rem 3.125rem 4.0625rem 3.125rem;
+}
+.letterList {
+	padding: 1.5625rem 0 0.3125rem 0;
+}
+.letterList .date {
+	text-align: center;
+	color: #999;
+	font-size: 0.75rem;
+}
+.letterList .date span.time {
+	margin-left: 0.3125rem;
+}
+.letterMess {
+	position: relative;
+}
+.letterMess img {
+	position: absolute;
+	top: 0;
+	left: -14%;
+}
+.letterMess .name {
+	font-size: 0.75rem;
+	color: #666;
+	margin: 1.125rem 0 0.625rem 0;
+}
+.letterMess .letterText {
+	padding: 0.625rem 1.25rem;
+	box-sizing: border-box;
+	width: 90%;
+	background-color: #fff;
+	font-size: 0.75rem;
+	color: #222;
+	line-height: 1.5625rem;
+	border-radius: 0.125rem;
+}
+.right .name{
+	text-align: right;
+}
+.right .letterMess img {
+	left:  103%;
+}
+.right .letterMess .letterText {
+	float: right;
+}
+.footInput {
+	min-height: 3.125rem;
+	height: auto;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #dbdbdb;
+	padding: 0 1.0625rem;
+}
+.footInput .textarea {
+	float: left;
+	color: #222;
+	outline: none;
+	font-size: 0.9375rem;
+	width: 85%;
+	line-height: 1.25rem;
+	min-height: 1.25rem;
+	max-height: 5rem;
+	overflow-y: scroll;
+	padding:0.9375rem;
+	box-sizing: border-box;
+}
+.footInput img {
+	height: 1.125rem;
+	width: 1.125rem;
+	float: right;
+	position: absolute;
+	bottom:0.9375rem;
+	right: 0.9375rem;
+}
+.footInput img.send {
+	display: none;
+}
+/* ----------私信------end */
+.commentList {
+	background-color: #fff;
+	padding-left: 3.4375rem;
+}
+.commentList .list {
+	position: relative;
+	padding: 0.75rem 2.375rem 0.625rem 0;
+	border-bottom: 1px solid #eee;
+}
+.commentList .list:last-child {
+	border: none;
+}
+.commentList .list .title {
+	color: #222;
+	font-size: 0.75rem;
+}
+.commentList .list .title span {
+	color: #999;
+	margin-left: 0.625rem;
+}
+.commentList .commentIcon {
+	position: absolute;
+	top: 0.75rem;
+	left: -2.5rem;
+}
+.commentList .list .text {
+	line-height:1.375rem ;
+	margin: 0.3125rem 0;
+}
+.reply {
+	color: #666;
+	font-size: 0.75rem;
+	margin-left: 0.3125rem;
+}
+.commentInput {
+	display: none;
+}
+.replyContent {
+	padding: 0.625rem 0 0 2.5rem;
+	position: relative;
+}
+.replyContent .replyIcon {
+	position: absolute;
+	top: 0.625rem;
+	left: 0;
+}
+.replyTitle {
+	color: #999;
+}
+.replyTitle span {
+	color: #222;
+	margin-left: 0.625rem;
+}
+.replyText {
+	line-height:1.375rem ;
+	margin:  0;
+}
+/* ----------评论-----end */
+.searchHistory {
+	position: relative;
+	padding: 0.6875rem 0.9375rem 0 0.9375rem;
+}
+.searchHistory img {
+	height: 0.6875rem;
+	width: auto;
+	position: absolute;
+	top: 0.6875rem;
+	right: 1.5625rem;
+}
+.historyTitle {
+	color: #222;
+	font-size: 0.875rem;
+	margin-bottom: 0.8125rem;
+}
+.searchHistory ul {
+	padding-left: 0.625rem;
+}
+.searchHistory ul li {
+	float: left;
+	color: #666;
+	font-size: 0.75rem;
+	width: 30%;
+	margin-right: 3%;
+	height: 1.875rem;
+	line-height: 1.875rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.hotSearch {
+	padding: 0.6875rem 0.9375rem;
+}
+.hotSearch .hotTitle {
+	color: #222;
+	font-size: 0.875rem;
+	margin-bottom: 0.8125rem;
+}
+.hotList {
+	background-color: #fff;
+}
+.hotList .left {
+	float: left;
+	width: 10%;
+	color: #666;
+	font-size: 0.9375rem;
+	padding-top: 0.935rem;
+	text-align: center;
+}
+.hotList .left.red {
+	color: #ff5033;
+}
+.hotList .right {
+	float: right;
+	width: 90%;
+	padding: 0.935rem 0;
+	border-bottom: 1px solid #eee;
+}
+.hotList .list:last-child .right {
+	border: none;
+}
+.hotList .hot {
+	height: 3.125rem;
+	background: url(../images/icon_fire.png) no-repeat 0.625rem 0.935rem;
+	background-size:0.875rem 1rem ;
+}
+.hotList .text {
+	color: #222;
+	font-size: 0.9375rem;
+}
+.hotList .num {
+	color: #999;
+	font-size: 0.75rem;
+	margin-top: 0.625rem;
+}
+/* 热门搜索、历史搜索 */
+
+.searchBlur {
+	background-color: #fff;
+}
+.talkContent {
+	padding-left: 0.9375rem;
+}
+.talkList {
+	height: 2.8125rem;
+	border-bottom: 1px solid #eee;
+	color: #222;
+	font-size: 0.875rem;
+	display: flex;
+}
+.talkList p {
+	height: 2.8125rem;
+	line-height: 2.8125rem;
+	width: 70%;
+}
+.talkList span {
+	flex: 1;
+	display: block;
+	height: 2.8125rem;
+	line-height: 2.8125rem;
+	text-align: right;
+	color: #999;
+	font-size: 0.75rem;
+	padding-right: 0.9375rem;
+}
+.userContent {
+	padding-left: 0.9375rem;
+}
+.userList {
+	height: 3.875rem;	
+	border-bottom: 1px solid #eee;
+	padding: 0.875rem 0.9375rem 0.875rem 0;
+	box-sizing: border-box;
+}
+.userIcon {
+	float: left;
+	width: 10%;
+}
+.userInfo {
+	float: right;
+	width: 88%;
+	font-size: 0.875rem;
+	color: #222;
+}
+.userInfo .userDir {
+	color: #999;
+	font-size: 0.75rem;
+}
+/* 搜索列表 */
+.searchResult {
+	background-color: #fff;
+}
+.resultTitle {
+	display: flex;
+	border-bottom: 1px solid #eee;
+}
+.resultTitle li {
+	flex: 1;
+	text-align: center;
+	height: 2.6875rem;
+	line-height: 2.6875rem;
+}
+.resultTitle li.active {
+color: #57cdd4;
+	position: relative;
+}
+.resultTitle li.active::after {
+	content: '';
+	height:0.125rem;
+	width: 1.5625rem;
+	background-color: #57cdd4;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.userTab {
+	display: none;
+}
+.talkTab {
+	display: none;
+}
+.artTab {
+	background-color: #f6f6f6;
+}
+/* 精确搜索结果 */
+
+/* -----搜索----end---- */
+.talkHeader {
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.talkHeader .navBar {
+	position: relative;
+}
+.talkHeader .copyTab {
+	border-bottom: 1px solid #eee;
+}
+.talk {
+	padding: 1rem 0.9375rem;
+	color: #222;
+	font-size: 0.9375rem;
+	border-bottom: 1px solid #f9f9f9;
+}
+.talk .talkTitle {
+	line-height: 1.5625rem;
+}
+.talk .num {
+	color: #999;
+	font-size: 0.75rem;
+	margin-bottom: 0.9375rem;
+}
+.talk .talkIcon {
+	float: left;
+	margin-right: 0.625rem;
+}
+.talk .talkName {
+	float: left;
+}
+.talk .talkName .name {
+	margin-bottom: 0.3125rem;
+	color: #222;
+}
+.talk .talkaction {
+	float: right;
+	color: #57cdd4;
+	font-size: 0.875rem;
+	margin-top: 0.625rem;
+}
+.copyContent {
+	padding-bottom: 4rem;
+}
+/* .copyContent .listText .text {
+	padding:0 0 1.25rem 0;
+}
+.copyContent .listText .text p {
+	padding:1.25rem 0.625rem 0 0.625rem;
+} */
+.copyList .listText .text img {
+	width: 100%;
+	height: auto;
+}
+.attendTalk {
+	height: 2.75rem;
+	line-height: 2.75rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;
+	background-color: #57cdd4;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+/* ---话题详情--end */
+
+
+.selectAuthor {
+	padding-top: 3.4375rem;
+	padding-left: 0.9375rem;
+}
+.authorSwiper .lists {
+	height: 2.5rem;
+	line-height: 2.5rem;
+	background-color: #f6f6f6;
+	width: auto;
+	text-align: center;
+	margin-right: 0.3125rem;
+	border-radius: 0.25rem;
+}
+.authorSwiper .lists.active {
+	color: #57cdd4;
+}
+.authorSwiper .lists.active::after {
+	content: '';
+	height:0.125rem;
+	width: 1.5rem;
+	background-color: #57cdd4;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.authorBox {
+	height: auto;
+	padding: 1.25rem 0.9375rem 0.625rem 0.9375rem;
+	background-color: #fff;
+	margin: 0.625rem 0;
+	box-sizing: border-box;
+}
+.selectAuthor.gbfff .lists {
+	background-color: #fff;
+}
+.authorBox .name {
+	color: #222;
+	font-size: 1rem;
+	font-weight: bold;
+	margin-bottom: 0.3125rem;
+}
+.authorBox .introduce {
+	color: #666;
+	font-size: 0.8125rem;
+	line-height: 1.25rem;
+	min-height: 1.5625rem;
+	max-height: 2.75rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	
+}
+.authorBox.copyBox {
+	padding: 0 0.9375rem;
+	margin: 0;
+}
+.copyBox .borderBottom {
+	padding: 1.125rem 0;
+	border-bottom: 1px solid #eee;
+}
+.copyBox .borderBottom:last-child {
+	border: 0;
+}
+.copyBox .introduce {
+	line-height:1.375rem;
+}
+.copyBox .introduce span {
+	margin-right: 0.625rem;
+	color: #333;
+	font-weight: bold;
+}
+
+
+
+.selectAuthor .attentionList {
+	padding-top: 0.625rem;
+}
+.selectAuthor .list {
+	min-height: 4.0625rem;
+	height: auto;
+}
+.selectAuthor .list .profile {
+	color: #666;
+	line-height: 1.125rem;
+	margin-top: 0.5rem;
+	height: auto;
+}
+
+.selectAuthor .list .h50 {
+	height: 1.5625rem;
+	width: 1.5625rem;
+	border-radius: 0.25rem;
+	overflow: hidden;
+	margin-top: 0.875rem;
+}
+.selectTalkList {
+	padding-bottom: 1.25rem;
+}
+.selectTalkList p {
+	height: 3.5625rem;
+	line-height: 3.5625rem;
+	color: #222;
+	font-size: 0.9375rem;
+	border-bottom: 1px solid #eee;
+}
+.selectTalkList p img {
+	height: 0.9375rem;
+	margin-right: 0.9375rem;
+}
+
+.authorCon {
+	background-color: #fff;
+	margin-top: 0.625rem;
+	padding: 0 0.9375rem;
+}
+.authorList {
+
+	border-bottom: 1px solid #eee;
+}
+.authorList .nameauthor {
+	font-size: 0.875rem;
+	color: #222;
+	height: 3.75rem;
+	line-height: 3.75rem;
+}
+.sourseList {
+	display: none;
+}
+.sourseList .list{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 5px;
+}
+.sourseList p {
+	line-height: 1.875rem;
+	height: 1.875rem;
+	width: 50%;
+	text-align: left;
+	font-size: 0.75rem;
+	display: flex;
+}
+.sourseList p span {
+	max-width: 85%;
+	float: left;
+}
+
+
+/* 搜索作者出处/话题---end */

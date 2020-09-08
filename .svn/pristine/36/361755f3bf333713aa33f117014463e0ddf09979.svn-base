@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+	</head>
+	<body>
+		<div class="navBar">
+			<div class="back">
+				<a href="publishCopy.html"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="searchInput">
+				<input type="text" name="" id="" value="" placeholder="搜索作者/出处" class="search" />
+				<img src="images/icon_search.png" alt="" class="searchIcon">
+				<img src="images/icon_remove.png" alt="" class="removeIcon">
+			</div>
+			<div class="rightIcon">
+				<a href="">搜索</a>
+			</div>
+			<div class="rightIcon searchCancle">
+				<a href="index.html">取消</a>
+			</div>
+		</div>
+		<!-- nav----end -->
+		<div class="authorSwiper selectAuthor gbfff">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="lists active">先秦</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lists">汉朝</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lists">魏晋</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lists">隋唐</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lists">宋元</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lists">明清</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lists">民国</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lists">现代</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lists">国外</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 朝代swiper --end-->
+		<div class="authorCon">
+			<div class="authorList">
+				<p class="nameauthor">宋玉</p>
+				<div class="sourseList">
+					<div class="list">
+						<p>《<span class="ellipsis">汉书·卷三十·艺文志第十</span>》</p>
+						<p>《<span class="ellipsis">九辩</span>》</p>
+						<p>《<span class="ellipsis">风赋</span>》</p>
+						<p>《<span class="ellipsis">高唐赋</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+					</div>
+				</div>
+			</div>
+			<div class="authorList">
+				<p class="nameauthor">孔子</p>
+				<div class="sourseList">
+					<div class="list">
+						<p>《<span class="ellipsis">论语</span>》</p>
+						<p>《<span class="ellipsis">春秋</span>》</p>
+						<p>《<span class="ellipsis">诗经</span>》</p>
+					</div>
+				</div>
+			</div>
+			<div class="authorList">
+				<p class="nameauthor">墨子</p>
+				<div class="sourseList">
+					<div class="list">
+						<p>《<span class="ellipsis">墨子</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+					</div>
+				</div>
+			</div>
+			<div class="authorList">
+				<p class="nameauthor">庄子</p>
+				<div class="sourseList">
+					<div class="list">
+						<p>《<span class="ellipsis">庄子</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+						<p>《<span class="ellipsis">登徒子好色赋</span>》</p>
+					</div>
+				</div>
+			</div>
+			<div class="authorList">
+				<p class="nameauthor">屈原</p>
+				<div class="sourseList">
+					<div class="list">
+						<p>《<span class="ellipsis">离骚</span>》</p>
+						<p>《<span class="ellipsis">九歌</span>》</p>
+						<p>《<span class="ellipsis">九章</span>》</p>
+						<p>《<span class="ellipsis">天问</span>》</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="authorList">
+				<p class="nameauthor">韩非</p>
+				<div class="sourseList">
+					<div class="list">
+						<p>《<span class="ellipsis">韩非子</span>》</p>
+						<p>《<span class="ellipsis">五蠹</span>》</p>
+						<p>《<span class="ellipsis">智子疑邻</span>》</p>
+						<p>《<span class="ellipsis">扁鹊见蔡桓公</span>》</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//搜索框聚焦效果
+				$(".search").keyup(function(){
+					if($(this).val().length){
+						$(".removeIcon").show();
+						$(".navBar").addClass("searchNavBar");
+						$(".mainSearch").hide();
+						$(".searchResult").show();
+					}else {
+						$(".navBar").removeClass("searchNavBar");
+						$(".mainSearch").show();
+						$(".searchResult").hide();
+					}
+				})
+				//清空输入内容
+				$(".removeIcon").click(function(){
+					$(".search").val('');
+					$(".search").focus();
+				})
+				//作者朝代轮播
+				var swiper = new Swiper('.swiper-container',{
+					slidesPerView : 4.5
+				});
+				//朝代选中效果
+				$(".authorSwiper .lists").click(function(){
+					$(".authorSwiper .lists").removeClass('active');
+					$(this).addClass("active");
+				})
+				//作者作品展示效果
+				$(".nameauthor").click(function(){
+					$(this).next(".sourseList").slideToggle();
+					$(this).parent().siblings().find(".sourseList").slideUp();
+				})
+			})
+		</script>
+	</body>
+</html>

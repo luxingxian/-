@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+	</head>
+	<body>
+		<div class="navBar">
+			<div class="back">
+				<a href="JavaScript:;"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="title ellipsis">#毕业季的你，找到工作了吗找到工作了吗？</div>
+			<div class="rightIcon">
+				<a href="javascript:;">完成</a>
+			</div>
+		</div>
+		<!-- ---nav   end-- -->
+		<div class="attendContent pTop">
+			<textarea  placeholder="输入你想说的话" class="textArea" ></textarea>
+			<label class="fileInput" >
+				<input type="file" name="" id="img" value="" accept="image/*" />
+			</label>
+			<!-- <div class="imgView">
+				<img src="" class="fileImg">
+				<img src="images/icon_delete.png" class="delete">
+			</div> -->
+		</div>
+		
+		<div class="popBg">
+			<div class="popBox">
+				<p class="title">提示</p>
+				<p class="text">确定要返回吗</p>
+				<p class="btns">
+					<a href="javascript:;" class="cancle">取消</a>
+					<a href="talk.html" class="sure">确定</a>
+				</p>
+			</div>
+		</div>
+		<!-- 返回提示弹窗 -->
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/commen.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//上传图片
+				$('#img').change(function(){
+					var file = $('#img')[0].files[0];
+					if(file){
+						var reader = new FileReader();
+						reader.readAsDataURL(file);
+						reader.onload=function(e){
+							console.log(e.target.result)
+							$(".fileInput").css({"background-image":"url("+e.target.result+")"});
+						}
+					}
+				})
+				//删除上传的图片
+				$(".delete").click(function(){
+					$(".imgView").hide();
+					$(".fileInput").show()
+					$('.fileImg').attr('src','')
+				})
+				//点击完成进行验证并跳转
+				$(".rightIcon").click(function(){
+					var text = $(".textArea").val();
+					if(text.length){
+						$(this).find('a').attr('href','talk.html')
+					}else {
+						$('.textArea').addClass("warn");
+						$('.textArea').focus();
+					}
+				})
+			
+			})
+		</script>
+	</body>
+</html>

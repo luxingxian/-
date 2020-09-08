@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+	</head>
+	<body style="background-color: #f6f6f6;">
+		<div class="navBar">
+			<div class="back">
+				<a href="index.html"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="searchInput">
+				<input type="text" name="" id="" value="" placeholder="微商朋友圈文案" class="search" />
+				<img src="images/icon_search.png" alt="" class="searchIcon">
+				<img src="images/icon_remove.png" alt="" class="removeIcon">
+			</div>
+			<div class="rightIcon">
+				<a href="">搜索</a>
+			</div>
+			<div class="rightIcon searchCancle">
+				<a href="index.html">取消</a>
+			</div>
+		</div>
+		<!-- nav----end -->
+		<div class="mainSearch pTop">
+			<div class="searchHistory">
+				<p class="historyTitle">搜索历史</p>
+				<img src="./images/icon_dustbin.png" class="dustbin" >
+				<ul class="clearfix">
+					<li>微商朋友圈文案友圈文案</li>
+					<li>唯美个性文案</li>
+					<li>名人名言文案</li>
+					<li>微商朋友圈文案</li>
+					<li>唯美个性文案</li>
+				</ul>
+			</div>
+			<div class="hotSearch">
+				<p class="hotTitle">热门搜索</p>
+				<div class="hotList">
+					<div class="list clearfix">
+						<div class="left hot"></div>
+						<div class="right">
+							<p class="text">微商朋友圈文案</p>
+							<p class="num">大家都在搜</p>
+						</div>
+					</div>
+					<div class="list clearfix">
+						<div class="left red">1</div>
+						<div class="right">
+							<p class="text">QQ空间推广文案</p>
+							<p class="num">6656人参与</p>
+						</div>
+					</div>
+					<div class="list clearfix">
+						<div class="left red">2</div>
+						<div class="right">
+							<p class="text">QQ空间推广文案</p>
+							<p class="num">6656人参与</p>
+						</div>
+					</div>
+					<div class="list clearfix">
+						<div class="left red">3</div>
+						<div class="right">
+							<p class="text">QQ空间推广文案</p>
+							<p class="num">6656人参与</p>
+						</div>
+					</div>
+					<div class="list clearfix">
+						<div class="left">4</div>
+						<div class="right">
+							<p class="text">QQ空间推广文案</p>
+							<p class="num">6656人参与</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 历史搜索/热门搜索 --end-->
+		<div class="searchBlur pTop">
+			<div class="talkContent">
+				<div class="talkList">
+					<p class="ellipsis">#微笑</p>
+					<span>56564人参与</span>
+				</div>
+				<div class="talkList">
+					<p class="ellipsis">#微笑微笑微笑微笑微笑微笑微笑微笑微笑微笑微笑微笑微笑</p>
+					<span>56564人参与</span>
+				</div>
+				<div class="talkList">
+					<p class="ellipsis">#微商朋友圈文案</p>
+					<span>56564人参与</span>
+				</div>
+				<div class="talkList">
+					<p class="ellipsis">#微笑</p>
+					<span>56564人参与</span>
+				</div>
+			</div>
+			<div class="userContent">
+				<div class="userList clearfix">
+					<div class="userIcon">
+						<img src="images/icon_photo2.jpg" alt="" class="h60">
+					</div>
+					<div class="userInfo">
+						<p class="userNme">微微一笑</p>
+						<p class="userDir ellipsis">简介: 自己的某宝店铺：有间饰物所，欢迎你的光临！QQ 3138542195 微博 世木</p>
+					</div>
+				</div>
+				<div class="userList clearfix">
+					<div class="userIcon">
+						<img src="images/icon_photo2.jpg" alt="" class="h60">
+					</div>
+					<div class="userInfo">
+						<p class="userNme">微风拂面</p>
+						<p class="userDir ellipsis">简介: QQ 3138542195 微博 世木</p>
+					</div>
+				</div>
+				<div class="userList clearfix">
+					<div class="userIcon">
+						<img src="images/icon_photo2.jpg" alt="" class="h60">
+					</div>
+					<div class="userInfo">
+						<p class="userNme">微微</p>
+						<p class="userDir ellipsis">简介: 自己的某宝店铺</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 搜索列表--end -->
+		<div class="searchResult pTop">
+				<ul class="resultTitle">
+					<li class="active">文案</li>
+					<li>话题</li>
+					<li>用户</li>
+				</ul>
+				<div class="artTab tab">
+					<div class="copyList">
+						<div class="authorName">
+							<img src="images/icon_photo2.jpg" >
+							<h2>娃哈哈娃哈哈</h2>
+							<p class="time">今天 09:22:56</p>
+							</div>
+						<div class="listText">
+							<a href="details.html">
+							<div class="text">
+								<p class="textCopy">冷风过境，冬天终于如期而至。</br>寒冷的气息混合着高三年级的肃杀气氛，</br>充斥着整个年级，</br>大家似乎都成了绷紧的橡皮筋。</br>而陆之昂也真的转去了理科班</p>
+							</div>
+							</a>
+							<ul class="listIcons">
+								<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+								<li><img src="images/icon_mess.png" ><span>888</span></li>
+								<li><img src="images/icon_shaare2.png" ><span>25</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="copyList">
+						<div class="authorName">
+							<img src="images/icon_photo2.jpg" >
+							<h2>娃哈哈娃哈哈</h2>
+							<p class="time">今天 09:22:56</p>
+							</div>
+						<div class="listText">
+							<a href="details.html">
+							<div class="text">
+								<p class="textCopy">冷风过境，冬天终于如期而至。</br>寒冷的气息混合着高三年级的肃杀气氛，</br>充斥着整个年级，</br>大家似乎都成了绷紧的橡皮筋。</br>而陆之昂也真的转去了理科班</p>
+							</div>
+							<img src="images/pic.jpg" alt="" class="indexImg">
+							</a>
+							<ul class="listIcons">
+								<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+								<li><img src="images/icon_mess.png" ><span>888</span></li>
+								<li><img src="images/icon_shaare2.png" ><span>25</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="talkContent talkTab tab">
+					<div class="talkList">
+						<p class="ellipsis">#微笑</p>
+						<span>56564人参与</span>
+					</div>
+					<div class="talkList">
+						<p class="ellipsis">#微笑微笑微笑微笑微笑微笑微笑微笑微笑微笑微笑微笑微笑</p>
+						<span>56564人参与</span>
+					</div>
+					<div class="talkList">
+						<p class="ellipsis">#微商朋友圈文案</p>
+						<span>56564人参与</span>
+					</div>
+					<div class="talkList">
+						<p class="ellipsis">#微笑</p>
+						<span>56564人参与</span>
+					</div>
+				</div>
+				<div class="userContent userTab tab">
+					<div class="userList clearfix">
+						<div class="userIcon">
+							<img src="images/icon_photo2.jpg" alt="" class="h60">
+						</div>
+						<div class="userInfo">
+							<p class="userNme">微微一笑</p>
+							<p class="userDir ellipsis">简介: 自己的某宝店铺：有间饰物所，欢迎你的光临！QQ 3138542195 微博 世木</p>
+						</div>
+					</div>
+					<div class="userList clearfix">
+						<div class="userIcon">
+							<img src="images/icon_photo2.jpg" alt="" class="h60">
+						</div>
+						<div class="userInfo">
+							<p class="userNme">微风拂面</p>
+							<p class="userDir ellipsis">简介: QQ 3138542195 微博 世木</p>
+						</div>
+					</div>
+					<div class="userList clearfix">
+						<div class="userIcon">
+							<img src="images/icon_photo2.jpg" alt="" class="h60">
+						</div>
+						<div class="userInfo">
+							<p class="userNme">微微</p>
+							<p class="userDir ellipsis">简介: 自己的某宝店铺</p>
+						</div>
+					</div>
+				</div>
+				
+		</div>
+		<!-- 精确搜索结果--end -->
+		
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/commen.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				 // $(".mainSearch").hide();
+				$(".searchBlur").hide();
+				$(".searchResult").hide();
+				
+				//搜索框聚焦效果
+				$(".search").keyup(function(){
+					if($(this).val().length){
+						$(".removeIcon").show();
+						$(".navBar").addClass("searchNavBar");
+						$(".mainSearch").hide();
+						$(".searchResult").show();
+					}else {
+						$(".navBar").removeClass("searchNavBar");
+						$(".mainSearch").show();
+						$(".searchResult").hide();
+					}
+				})
+				//清空输入内容
+				$(".removeIcon").click(function(){
+					$(".search").val('');
+					$(".search").focus();
+				})
+				// 清空历史搜索
+				$(".dustbin").click(function(){
+					$(".searchHistory").hide();
+				})
+				// tab切换点击效果
+				$(".resultTitle li").click(function(){
+					$(".tab").hide().eq($(this).index()).show();
+					$(".resultTitle li").removeClass("active");
+					$(this).addClass("active");
+				})
+			})
+		</script>
+	</body>
+</html>

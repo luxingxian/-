@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body style="padding-bottom: 3.0625rem; ">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="careContent">
+						<div class="careHeader">
+							<p>
+								<img src="images/LOGO.png" alt="" class="h60">
+							</p>
+							<ul class="listIcons">
+								<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>1.5万</span></li>
+								<li><a href="details.html"><img src="images/icon_mess.png" ><span>29</span></a></li>
+								<li><a href="shareImg.html"><img src="images/icon_shaare2.png" ><span>分享</span></a></li>
+							</ul>
+						</div>
+						<a href="details.html">
+						<div class="careMain">
+							<div class="mainImg"><img src="images/bnner_3.jpg" alt=""></div>
+							
+							<div class="text">
+								<p class="textCopy">我的笑容背后里</br>藏着无数的秘密，</br>而我在等着那个</br>懂我的人</br>来揭开这些秘密</p>
+							
+							</div>
+							
+							<div class="botMess">
+								<p class="careAuthor">--<span>三毛</span> <span>《沙哈拉的故事》</span></p>
+								<p class="careUser"><img src="images/icon_photo.jpg" alt="" class="h60"><span>哇哈哈哈</span></p>
+							</div>
+						</div>
+						</a>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="careContent">
+						<div class="careHeader">
+							<p>
+								<img src="images/LOGO.png" alt="" class="h60">
+							</p>
+							<ul class="listIcons">
+								<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+								<li>
+									<img src="images/icon_mess.png" alt="">
+									<span>66</span>
+								</li>
+								<li>
+									<a href="shareImg.html">
+									<img src="./images/icon_shaare2.png" alt="">
+									<span>28</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<a href="details.html">
+						<div class="careMain">
+							<div class="mainImg"><img src="images/pic.jpg" alt=""></div>
+							<div class="text">
+								<p>我的笑容背后里</br>藏着无数的秘密，</br>而我在等着那个</br>懂我的人</br>来揭开这些秘密</p>
+							</div>
+							</a>
+							<div class="botMess">
+								<p class="careAuthor">--<span>三毛</span> <span>《沙哈拉的故事》</span></p>
+								<p class="careUser"><img src="images/icon_photo.jpg" alt="" class="h60"><span>哇哈哈哈</span></p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="careContent">
+						<div class="careHeader">
+							<p>
+								<img src="images/LOGO.png" alt="" class="h60">
+							</p>
+							<ul class="listIcons">
+								<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+								<li>
+									<img src="images/icon_mess.png" alt="">
+									<span>66</span>
+								</li>
+								<li>
+									<a href="shareImg.html">
+									<img src="./images/icon_shaare2.png" alt="">
+									<span>28</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<a href="details.html">
+						<div class="careMain">
+							<div class="mainImg"><img src="images/bnner_3.jpg" alt=""></div>
+							<div class="text">
+								<p>我的笑容背后里</br>藏着无数的秘密，</br>而我在等着那个</br>懂我的人</br>来揭开这些秘密</p>
+							</div>
+							</a>
+							<div class="botMess">
+								<p class="careAuthor">--<span>三毛</span> <span>《沙哈拉的故事》</span></p>
+								<p class="careUser"><img src="images/icon_photo.jpg" alt="" class="h60"><span>哇哈哈哈</span></p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="careContent">
+						<div class="careHeader">
+							<p>
+								<img src="images/LOGO.png" alt="" class="h60">
+							</p>
+							<ul class="listIcons">
+								<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+								<li>
+									<img src="images/icon_mess.png" alt="">
+									<span>66</span>
+								</li>
+								<li>
+									<a href="shareImg.html">
+									<img src="./images/icon_shaare2.png" alt="">
+									<span>28</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<a href="details.html">
+						<div class="careMain">
+							<div class="mainImg"><img src="images/bnner_2.jpg" alt=""></div>
+							<div class="text">
+								<p>我的笑容背后里</br>藏着无数的秘密，</br>而我在等着那个</br>懂我的人</br>来揭开这些秘密</p>
+							</div>
+							</a>
+							<div class="botMess">
+								<p class="careAuthor">--<span>三毛</span> <span>《沙哈拉的故事》</span></p>
+								<p class="careUser"><img src="images/icon_photo.jpg" alt="" class="h60"><span>哇哈哈哈</span></p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="careContent">
+						<div class="careHeader">
+							<p>
+								<img src="images/LOGO.png" alt="" class="h60">
+							</p>
+							<ul class="listIcons">
+								<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+								<li>
+									<img src="images/icon_mess.png" alt="">
+									<span>66</span>
+								</li>
+								<li>
+									<a href="shareImg.html">
+									<img src="./images/icon_shaare2.png" alt="">
+									<span>28</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<a href="details.html">
+						<div class="careMain">
+							<div class="mainImg"><img src="images/bnner_1.png" alt=""></div>
+							<div class="text">
+								<p>我的笑容背后里</br>藏着无数的秘密，</br>而我在等着那个</br>懂我的人</br>来揭开这些秘密</p>
+							</div>
+							</a>
+							<div class="botMess">
+								<p class="careAuthor">--<span>三毛</span> <span>《沙哈拉的故事》</span></p>
+								<p class="careUser"><img src="images/icon_photo.jpg" alt="" class="h60"><span>哇哈哈哈</span></p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li>
+					<a href="index.html">首页</a>
+				</li>
+				<li class="active">
+					<a href="javascript:;">精选</a>
+				</li>
+				<li class="release">
+					<a href="publishCopy.html">发布</a>
+				</li>
+				<li>
+					<a href="message.html">消息</a>
+					<span class="numTip">4</span>
+				</li>
+				<li>
+					<a href="profile.html">我</a>
+				</li>
+			</ul>
+		</div>
+		<div class="tipBg"></div>
+		<div class="tipBox">
+			<p class="copyText" id="copytextBtn" data-clipboard-text=''><a href="javascript:;" >复制文本</a></p>
+			<p class="copyLink" id="copylinkBtn" data-clipboard-text=''><a href="javascript:;">复制链接</a></p>
+			<p class="tipoff"><a href="tipOff.html">举报</a></p>
+			<p class="cancle"><a href="javascript:;">取消</a></p>
+		</div>
+		<div class="toastTip">关注成功</div>
+		<!-- 长按复制弹窗--end -->
+	<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/clipboard.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/copyText.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/commen.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			var swiper = new Swiper('.swiper-container');
+			//计算内容高度
+			var wHeight = window.innerHeight;
+			var imgHeight = $(".mainImg").height();
+			var headHeight = $(".careHeader").height();
+			var footHeight = $(".footer").height();
+			var mainHeight = wHeight-headHeight-footHeight;
+			var textHeight = mainHeight-imgHeight;
+			$(".careMain").outerHeight(mainHeight);
+			$(".careMain .text").outerHeight(textHeight);
+			
+		})
+	</script>
+	</body>
+</html>

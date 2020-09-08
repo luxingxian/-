@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+	</head>
+	<body>
+	<div class="talkHeader">
+		<div class="navBar noborder">
+			<div class="back">
+				<a href="talkList.html"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="title"></div>
+			<div class="rightIcon">
+				<a href="javascript:;"><img src="./images/icon_share.png" alt=""></a>
+			</div>
+		</div>
+		<!-- navBar----end -->
+		<div class="talk clearfix">
+			<p class="talkTitle">#毕业季的你，找到工作了吗？</p>
+			<p class="num"><span>3568</span>人参与</p>
+				<img src="images/icon_photo.jpg" class="h60 talkIcon" >
+			<a href="authorProfile.html">
+			<div class="talkName">
+				<p class="name">小小鱼</p>
+				<p class="date"><span>今天</span><span>14:40:56</span></p>
+			</div>
+			</a>
+			<div class="talkaction focusBtn">+关注</div>
+			
+		</div>
+		<div class="copyTab">
+			<a href="javascript:;" class="copyWriht active">最新</a>
+			<a href="javascript:;" class="collet">最热</a>
+		</div>
+	</div>
+		
+		<div class="copyContent">
+			<div class="copyList">
+				<div class="authorName">
+					<img src="images/icon_photo2.jpg" >
+					<h2>娃哈哈娃哈哈</h2>
+					<p class="time">今天 09:22:56</p>
+					</div>
+				<div class="listText">
+					<div class="text">
+						<p class="textCopy">不着急，慢慢来，总会找到合适自己的岗位！</p>
+					</div>
+					<ul class="listIcons">
+						<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+						<li><img src="images/icon_mess.png" ><span>888</span></li>
+						<li><img src="images/icon_shaare2.png" ><span>25</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyList">
+				<div class="authorName">
+					<img src="images/icon_photo2.jpg" >
+					<h2>鲁兴先</h2>
+					<p class="time">今天 09:22:56</p>
+				</div>
+				<div class="listText">
+					<div class="text">
+						
+						<p class="textCopy">不着急，慢慢来，总会找到合适自己的岗位！</p>
+						<img src="images/img.jpg" >
+
+					</div>
+					<ul class="listIcons">
+						<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+						<li><img src="images/icon_mess.png" ><span>888</span></li>
+						<li><img src="images/icon_shaare2.png" ><span>25</span></li>
+					</ul>
+				</div>
+			</div>
+		<div class="copyList">
+				<div class="authorName">
+					<img src="images/icon_photo2.jpg" >
+					<h2>娃哈哈娃哈哈</h2>
+					<p class="time">今天 09:22:56</p>
+					</div>
+				<div class="listText">
+					<div class="text">
+						<p class="textCopy">不着急，慢慢来，总会找到合适自己的岗位！</p>
+					</div>
+					<ul class="listIcons">
+						<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+						<li><img src="images/icon_mess.png" ><span>888</span></li>
+						<li><img src="images/icon_shaare2.png" ><span>25</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyList">
+				<div class="authorName">
+					<img src="images/icon_photo2.jpg" >
+					<h2>鲁兴先</h2>
+					<p class="time">今天 09:22:56</p>
+				</div>
+				<div class="listText">
+					<div class="text">
+						<img src="images/img.jpg" >
+						<p class="textCopy">不着急，慢慢来，总会找到合适自己的岗位！</p>
+		
+					</div>
+					<ul class="listIcons">
+						<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+						<li><img src="images/icon_mess.png" ><span>888</span></li>
+						<li><img src="images/icon_shaare2.png" ><span>25</span></li>
+					</ul>
+				</div>
+			</div>
+		
+		</div>
+		<a href="attendTalk.html"><p class="attendTalk iphoneBottom">参与话题</p></a>
+		
+		<!-- 文案、收藏文案列表----end -->
+		<div class="tipBox">
+			<p class="copyText" id="copytextBtn" data-clipboard-text=''><a href="javascript:;" >复制文本</a></p>
+			<p class="copyLink" id="copylinkBtn" data-clipboard-text=''><a href="javascript:;">复制链接</a></p>
+			<p class="tipoff"><a href="tipOff.html">举报</a></p>
+			<p class="cancle"><a href="javascript:;">取消</a></p>
+		</div>
+		<div class="toastTip">关注成功</div>
+		<!-- 长按复制弹窗--end -->
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clipboard.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/copyText.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/commen.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".copyTab a").click(function(){
+					$(".copyTab a").removeClass("active");
+					$(this).addClass("active");
+				})
+				var top = $(".talkHeader").height();
+				$('body').css({"padding-top" : top})
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body style="background-color: #f6f6f6;">
+		<div class="navBar">
+			<div class="back">
+				<a href="javascript:;"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="title ellipsis">发布文案</div>
+			<div class="rightIcon">
+				<a href="draft.html">进入草稿</a>
+			</div>
+		</div>
+		<div class="attendContent pTop publishCopy" id="publishCopy">
+			<textarea  placeholder="请输入正文，句尾请添加标点，不带空格，换行~" maxlength='200'  class="textArea" ></textarea>
+			
+			<label class="fileInput" >
+				<input type="file" name="" id="img" value="" accept="image/*" />
+			</label>
+			<div class="imgView">
+				<img src="" class="fileImg">
+				<img src="images/icon_delete.png" class="delete">
+			</div>
+			<p class="textareaTip"><i>草稿已自动保存，</i>还可以输入<span>200</span>字</p>
+		</div>
+		<div class="attrContent">
+			<a href="selectTalk.html">
+				<p>
+					<img src="images/icon_talkAbout.png" >
+					<input type="text" placeholder="关联话题" disabled class="selectTalk" >
+				</p>
+			</a>
+			<a href="selectAutor.html">
+				<p>
+					<img src="images/icon_author.png" >
+					<input type="text" placeholder="作者/出处" disabled class="author" >
+				</p>
+			</a>
+			
+		</div>
+		<a href="javascript:;" class="subMit iphoneBottom">提交</a>
+		<div class="submitTip">
+			<p class="tipTitle">
+				提交成功
+			</p>
+			<p class="tipText">
+				您提交的内容已成功进入审核队列，我们将尽快处理~
+				<!-- 失败文案：提交失败  内容提交失败，请重新提交~ -->
+			</p>
+		</div>
+		<div class="popBg">
+			<div class="popBox">
+				<p class="title">提示</p>
+				<p class="text">确定要返回吗</p>
+				<p class="btns">
+					<a href="javascript:;" class="cancle">取消</a>
+					<a href="index.html" class="sure">确定</a>
+				</p>
+			</div>
+		</div>
+		<!-- 返回提示弹窗 -->
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/commen.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				// 输入框字数提示
+				$(".textArea").keyup(function(){
+					var maxLength = $(this).attr('maxlength');
+					var copyLength = $(this).val().length;
+					$(".textareaTip span").html(maxLength-copyLength);
+					if(copyLength){
+						$(".textareaTip i").show();
+					}else {
+						$(".textareaTip i").hide();
+					}
+				})
+				//上传图片
+				$('#img').change(function(){
+					var file = $('#img')[0].files[0];
+					if(file){
+						var reader = new FileReader();
+						reader.readAsDataURL(file);
+						reader.onload=function(e){
+							console.log(e.target.result)
+							$('.fileImg').attr('src',e.target.result)
+						}
+						$(".imgView").show();
+						$(".fileInput").hide()
+					}
+				})
+				//删除上传的图片
+				$(".delete").click(function(){
+					$(".imgView").hide();
+					$(".fileInput").show()
+					$('.fileImg').attr('src','')
+				})
+				
+				//点击完成进行验证并跳转
+				$(".subMit").click(function(){
+					var text = $(".textArea").val();
+					if(text.length){
+						$(".submitTip").fadeIn().delay(1000).fadeOut();
+						
+					}else {
+						$('.textArea').addClass("warn");
+						$('.textArea').focus();
+					}
+				})
+			})
+		</script>
+	</body>
+		
+</html>

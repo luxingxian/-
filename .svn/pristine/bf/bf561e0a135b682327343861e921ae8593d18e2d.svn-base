@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body style="background-color: #f6f6f6;">
+		<a href="details.html" class="backIcon"><img src="images/back_gray.png" alt=""></a>
+		<div class="shareImgBg">
+			<div class="imgDiv">
+				<div class="imgBox">
+					<div class="img">
+						<img src="images/pic.jpg"  class="mainImg">
+					</div>
+					<div class="textToast">
+						<p class="textView">
+							<span class="chinese">时代的列车轰轰地往前开。</br>坐在车上，经过几条熟悉的街衢。</span>
+							<span class="english">If equal affection cannot be,</br> let the more loving be me</span></p>
+						<p class="author">--李白 《静夜思》</p>
+					</div>
+				
+			</div>
+				<div class="shareMess">
+					<!-- 锚点bot -->
+					<a  name="bot" id="bot"></a>
+					<p class="shareUser" ><img src="images/icon_photo2.jpg" alt="" ><span>huahua花花</span></p>
+					<p class="shareDate">「大文案」<!-- <span>2020/07/03</span> --></p>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="bottomOption iphoneBottom">
+			<div class="bottomLeft">
+				<p class="Pic"><img src="images/icon_pic.png" alt=""><span>图片</span></p>
+				<p class="Mode"><img src="images/icon_mode.png" alt=""><span>模板</span></p>
+				<!-- 锚点bot -->
+				<p class="Show"><a href="#bot"><img src="images/icon_show.png" alt=""><span>显示</span></a></p>
+			</div>
+			<div class="bottomRight"><a href="javascript:;">下一步</a></div>
+		</div>
+		<!-- ======== -->
+		<div class="slideBox slideMode">
+			<div class="slideDiv modeSelect">
+				<img src="images/modeOne.png" class="selected" id="Two">
+				<img src="images/modeOne.png" id="One">
+			</div>
+		</div>
+		<!-- 选择模板弹窗 -->
+		<div class="slideBox slidePic">
+			<div class="slideDiv picSelect">
+				<p class="swiperTab">
+					<span class="active">风景</span>
+					<span>美食</span>
+					<span>城市</span>
+					<span>人物</span>
+					<span>其他</span>
+				</p>
+				<div class="imgSlider">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="file swiperBox">
+									<label>
+										<input type="file" name="" id="" value="" accept="image/*" class="imgChoce"/>
+									</label>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiperBox selected">
+									<img src="images/pic.jpg" >
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiperBox">
+									<img src="images/bnner_1.png" >
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiperBox">
+									<img src="images/bnner_2.jpg" >
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiperBox">
+									<img src="images/bnner_3.jpg" >
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiperBox">
+									<img src="images/bnner_1.png" >
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!-- 选择图片弹窗 -->
+		<div class="slideBox slideShow">
+			<div class="slideDiv showSelect clearfix">
+				<p class="showUser selected" id='User'>
+					<img src="images/user.png" >
+				</p>
+				<!-- <p class="showDate selected" id='Date'>
+					<img src="images/date.png">
+				</p> -->
+			</div>
+		</div>
+		<!-- 显示用户、日up期弹窗 -->
+		<div class="slideBox slideShare">
+			<div class="slideDiv shareSelect ">
+				<p class="weChat"><img src="images/weChat.png" ><span>微信</span></p>
+				<p class="friend"><img src="images/friend.png" ><span>朋友圈</span></p>
+				<p class="wblog"><img src="images/wblog.png" ><span>微博</span></p>
+				<p class="qq"><img src="images/qq.png" ><span>QQ</span></p>
+				<p class="qq"><img src="images/qq.png" ><span>保存相册</span></p>
+			</div>
+		</div>
+		<div class="toastTip">分享成功</div>
+		<img src="" id="imgCon" >
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/html2canvas.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shareImg.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//获取需要生成图片区域的宽度设置对应比例高度
+				var imgDIvWidth = $(".imgDiv").width();
+				var imgDIvHeight = imgDIvWidth/(1080/2337);
+				$(".imgDiv").height(imgDIvHeight/16+'rem');
+				$(".img").css({'max-height':imgDIvHeight/16*0.3+'rem'})
+				//弹窗拉起收起
+				$(".bottomLeft p").click(function(){
+					var className = $(this).attr('class');
+					var boxHeight = $(".slide"+className).outerHeight();
+					$(".slide"+className).addClass("up");
+					if(className=='Show'){
+						$(".shareImgBg").css({'padding-bottom':(boxHeight+10)/16+'rem'});
+					}else {
+						$(".shareImgBg").css({'padding-bottom':'3.75rem'});
+					}
+					
+				});
+				$(".imgDiv").click(function(){
+					$(".slideBox").removeClass("up");
+					$(".shareImgBg").css({'padding-bottom':'3.75rem'})
+				})
+				
+				//选择图片的tab切换
+				$(".swiperTab span").click(function(){
+					$(".swiperTab span").removeClass("active");
+					$(this).addClass("active");
+				})
+				
+				//轮播，根据屏幕确定显示个数
+				var boxWidth = $(".imgSlider").width(),
+						swiperWidth = $(".swiperBox").width(),
+						col = Math.floor(boxWidth/swiperWidth);		
+				var swiper = new Swiper (".swiper-container",{
+					 slidesPerView : col,
+						spaceBetween: 10
+				})
+				//上传图片
+				$('.imgChoce').change(function(){
+					var file = $('.imgChoce')[0].files[0];
+					if(file){
+						var reader = new FileReader();
+						reader.readAsDataURL(file);
+						reader.onload=function(e){
+							$('.mainImg').attr('src',e.target.result)
+						}
+					}
+				})
+				//选择更换图片
+				$(".swiperBox").not(".file").click(function(){
+					var src = $(this).find('img').attr('src');
+					$('.mainImg').attr('src',src)
+					$(".swiperBox").removeClass("selected");
+					$(this).addClass("selected");
+					
+				})
+				//选择模板
+				$(".modeSelect img").click(function(){
+					var id = $(this).attr("id");
+					$(".modeSelect img").removeClass("selected");
+					$(this).addClass("selected");
+					$(".imgBox").attr("class",'imgBox mode'+id);
+				})
+				//选择显示信息
+				$(".showSelect p").click(function(){
+					var showId = $(this).attr("id");
+					$(this).toggleClass("selected");
+					if($(this).hasClass("selected")){
+						$(".share"+showId).removeClass('hide');
+					}else {
+						$(".share"+showId).addClass('hide');
+					}
+				})
+				
+				//完成
+				$(".bottomRight a").click(function(){
+					document.body.scrollTop = document.documentElement.scrollTop = 0;
+					toImg($(".imgDiv"),$("#imgCon"))
+					// $(".slideShare").addClass("up");
+				})
+				
+			})
+		</script>
+	</body>
+</html>

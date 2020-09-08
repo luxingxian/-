@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+	</head>
+	<body>
+		<div class="navBar">
+			<div class="back">
+				<a href="javascript:;"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="title ellipsis">创建话题</div>
+			<div class="rightIcon">
+				<a href="javascript:;">完成</a>
+			</div>
+		</div>
+		<!-- ---nav   end-- -->
+		<div class="attendContent pTop">
+			<textarea  placeholder="输入你想说的话" class="textArea" maxlength="30" ></textarea>
+			<p class="numtip"><span>0</span>/30</p>
+		</div>
+		
+		<div class="popBg">
+			<div class="popBox">
+				<p class="title">提示</p>
+				<p class="text">确定要返回吗</p>
+				<p class="btns">
+					<a href="javascript:;" class="cancle">取消</a>
+					<a href="selectTalk.html" class="sure">确定</a>
+				</p>
+			</div>
+		</div>
+		<!-- 返回提示弹窗 -->
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/commen.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//上传图片
+				$('#img').change(function(){
+					var file = $('#img')[0].files[0];
+					if(file){
+						var reader = new FileReader();
+						reader.readAsDataURL(file);
+						reader.onload=function(e){
+							console.log(e.target.result)
+							$('.fileImg').attr('src',e.target.result)
+						}
+						$(".imgView").show();
+						$(".fileInput").hide()
+					}
+				})
+				//删除上传的图片
+				$(".delete").click(function(){
+					$(".imgView").hide();
+					$(".fileInput").show()
+					$('.fileImg').attr('src','')
+				})
+				//点击完成进行验证并跳转
+				$(".rightIcon").click(function(){
+					var text = $(".textArea").val();
+					if(text.length){
+						$(this).find('a').attr('href','talkList.html')
+					}else {
+						$('.textArea').addClass("warn");
+						$('.textArea').focus();
+					}
+				})
+				//输入框字数提示
+				$(".textArea").keyup(function(){
+					$(".numtip span").html($(this).val().length);
+				})
+			})
+		</script>
+	</body>
+</html>

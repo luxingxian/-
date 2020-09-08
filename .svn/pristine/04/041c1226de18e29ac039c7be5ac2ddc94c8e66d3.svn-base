@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html style="background-color: #fff;">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+	</head>
+	<body>
+		<div class="navBar">
+			<div class="back">
+				<a href="profile.html"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="title">我的关注</div>
+			<div class="rightIcon">
+			</div>
+		</div>
+		<div class="attentionList pTop">
+			<a href="authorProfile.html">
+			<div class="list">
+				<div class="ptoto">
+					<img src="./images/icon_photo.jpg" class="h60" >
+				</div>
+				<div class="dir">
+					<p class="name">微笑一笑<span>取消关注</span></p>
+					<p class="profile ellipsis">简介：QQ 3138542195 微博 世木</p>
+				</div>
+			</div>
+			</a>
+			<a href="authorProfile.html">
+			<div class="list">
+				<div class="ptoto">
+					<img src="./images/icon_photo.jpg" class="h60" >
+				</div>
+				<div class="dir">
+					<p class="name">微风拂面<span>取消互相关注</span></p>
+					<p class="profile ellipsis">简介：自己的某宝店铺：有间饰物所，欢迎你的光临！</p>
+				</div>
+			</div>
+			</a>
+			<a href="authorProfile.html">
+			<div class="list">
+				<div class="ptoto">
+					<img src="./images/icon_photo.jpg" class="h60" >
+				</div>
+				<div class="dir">
+					<p class="name">微笑一笑<span>取消关注</span></p>
+					<p class="profile ellipsis">简介：己的某宝店铺：有间饰物所，欢迎你QQ 3138542195 微博 世木</p>
+				</div>
+			</div>
+			</a>
+			<a href="authorProfile.html">
+			<div class="list">
+				<div class="ptoto">
+					<img src="./images/icon_photo.jpg" class="h60" >
+				</div>
+				<div class="dir">
+					<p class="name">微笑一笑<span>取消关注</span></p>
+					<p class="profile ellipsis">简介：QQ 3138542195 微博 世木</p>
+				</div>
+			</div>
+			</a>
+		</div>
+		
+	</body>
+</html>

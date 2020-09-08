@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>顶部回弹</title>
+		<style type="text/css">
+			html,body,div,h2{ margin: 0;padding: 0;}
+			html,body { width: 100%;height: 100%;overflow: hidden; }
+			.wrap { width: 100%;height: 100%;overflow: hidden;position: relative; }
+			.hideBox { width: 100%;height: 100%;background-color: #f5f5f5;position: absolute;top: 0;left: 0;overflow-y: auto;}
+			.hideBox h2 { width: 100%;margin-top: 20%;font-size: 16px;text-align: center; }
+			
+			.top { width: 100%;height: 100%; position: absolute; top: 0;left: 0;z-index: 2;background-color: #fff;overflow-y: auto;text-align: center;}
+			.moveBox {background-color: #1a84dd;color: #fff;width: 100px;height: 100px;text-align: center;line-height: 100px;border-radius: 50%;cursor: pointer; -webkit-user-select: none;-moz-user-select: none;margin: 0 auto;}
+			.moveIn { transition: all 1s ease-in; }
+		</style>
+	</head>
+	<body>
+		<div class="wrap" >
+			<div class="hideBox" style="text-align: center;" >
+				<img src="images/LOGO.png" style="height: 1.875rem;width: 1.875rem;margin-top:1.875rem;" >
+			</div>
+			<div class="top" >
+				<div class="moveBox" >移动块</div>
+				<div class="moveBox" >移动块</div>
+				<div class="moveBox" >移动块</div>
+				<div class="moveBox" >移动块</div>
+				<div class="moveBox" >移动块</div>
+				<div class="moveBox" >移动块</div>
+				<div class="moveBox" >移动块</div>
+				<div class="moveBox" >移动块</div>
+				<div class="moveBox" >移动块</div>
+				<div class="moveBox" >移动块</div>
+				<div class="moveBox" >移动块</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		document.addEventListener('touchmove',function(ev){
+		  ev.preventDefault();
+		},{passive:false});
+		$(function(){
+			moveBoxFun($(".top"));
+		})		
+		// 移动方法
+		function moveBoxFun(dome){
+			var startY,endY,intY,
+				maxH = $(window).height(),
+				maxY = maxH*0.6; // 手指移动的距离
+			if(dome){
+				
+				dome.on('touchstart',function(e){
+					var touchS = e.originalEvent.targetTouches[0];
+					var startY = touchS.clientY;	// 鼠标相对浏览器窗口高度	
+					// 获取当前元素scrollTop 
+					var scrollTop = dome.scrollTop();
+					// 不在顶部禁止
+					if(scrollTop !== 0){
+						dome.css({top:0});
+						dome.unbind('touchmove');
+						return;
+					}
+					// 移动变量
+					var moveY = 0;
+					
+					dome.on('touchmove',function(ev){
+						var touchM = ev.originalEvent.targetTouches[0];						
+						var mY = touchM.clientY;
+						moveY+=2;
+						if(mY - startY > 0){							
+							dome.css({
+								top: moveY+'px'
+							})
+						}
+                                                // 如果刷新可以改成 window.location.reload()
+					})					
+					
+					dome.on('touchend',function(ev){
+						var touchE = ev.originalEvent.changedTouches[0];
+						var endY = touchE.clientY;
+						dome.unbind('mousemove');
+						// if(endY - startY >0&& endY - startY > maxY){
+						// 	dome.animate({
+						// 		top: maxH + 'px'
+						// 	},function(){
+						// 		dome.hide();
+						// 	})
+						// }else{
+							dome.css({
+								top:'0px'
+							},500)
+						// }
+					});					
+				});
+				
+			}
+		}
+		
+	</script>
+</html>

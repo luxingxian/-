@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+	</head>
+	<body>
+		<div class="navBar">
+			<div class="back">
+				<a href="profile.html"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="title">我的资料</div>
+			<div class="rightIcon">
+				<a href="profile.html">完成</a>
+			</div>
+		</div>
+		<div class="info pTop">
+			<div class="infoList name">
+				<div class="label">昵称</div>
+				<div class="infoContent">
+					<input placeholder="请输入您的昵称" class="nameInput" value="我的昵称"/>
+					<img src="images/icon_remove.png" class="removeIcon">
+				</div>
+			</div>
+			<div class="infoList sexList">
+				<div class="label">性别</div>
+				<div class="infoContent sex">
+					<div class="sextext">男</div>
+					<div class="radio">
+						<label for="sex" class="checked man" >
+							<input type="radio" name="sex" value="男" checked="" />男
+						</label>
+						<label for="sex">
+							<input type="radio" name="sex" value="女" class="woman"/>女
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="infoList">
+				<div class="label">手机号</div>
+				<div class="infoContent">
+					<input placeholder="请输入您的手机号" type="number" class="phoneInput" maxlength="11"/>
+				</div>
+			</div>
+			<div class="infoList textList">
+				<div class="label">个性签名</div>
+				<div class="infoContent">
+					<textarea rows="" cols="" maxlength="30">你问为什么海水是咸的？还不是你们这些都市人一边游泳一边不忘大小便</textarea>
+			</div>
+		</div>
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//昵称输入 一键清空输入
+				$(".nameInput").keyup(function(){
+					if($(this).val().length){
+						$(".removeIcon").show();
+					}else {
+						$(".removeIcon").hide()
+					}
+				});
+				$(".removeIcon").click(function(){
+					$(this).prev('input').val('').focus()
+				});
+				//单选框选择效果
+				$(".sex label").click(function(){
+					$(".sex label").removeClass("checked")
+					$(this).addClass("checked");
+					$(".sextext").text($(this).find("input").val())
+				});
+				//点击“完成”验证
+				$(".rightIcon").click(function(){
+					if($(".nameInput").val()){
+						$(this).find("a").attr('href','profile.html');
+					}else {
+						$(".nameInput").addClass("warn").focus()
+						$(this).find("a").attr('href','javascript:;');
+					}
+				})
+			})
+		</script>
+	</body>
+</html>

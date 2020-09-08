@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body style="background-color: #f6f6f6;user-select: none;">
+		<div class="navBar detailNav">
+			<div class="back">
+				<a href="index.html"><img src="images/icon_back.png" alt=""></a>
+				<div class="detailUser"><img src="images/icon_photo2.jpg" alt="" ><span>娃哈哈</span></div>
+			</div>
+			<div class="title"></div>
+			<div class="rightIcon">
+				<a href="javascript:;" class="focusBtn">关注</a>
+			</div>
+		</div>
+		<!-- navBar----end -->
+		<div class="details">
+			<div class="text">
+				<p id="copyArea" class="textCopy">冷风过境，</br>冬天终于如期而至。</br>寒冷的气息混合着高三年级的肃杀气氛，</br>充斥着整个年级，</br>大家似乎都成了绷紧的橡皮筋。</br>而陆之昂也真的转去了理科班</p>
+			</div>	
+			<p><a href="talk.html" class="talkTag">#毕业季的你</a></p>
+			<div class="indexImg">
+				<img src="images/pic.jpg" >
+			</div>
+		</div>
+		<!-- 详情----end -->
+		<div class="commenListTitle">最新评论</div>
+		<div class="comList">
+						<div class="list">
+							<div class="commentInfo">
+								<img src="images/icon_photo.jpg" class="comIcon h60" >
+								<p class="title">暗中观察</p>
+								<p class="date"><span>今天</span><span class="time">12:00</span></p>
+								<div class="replay">
+								<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+								</div>
+								<p class="heartIcon">
+									<img src="images/icon_heart.png" class="heart" >
+									<img src="images/icon_heartBule.png"  class="heartActive" >
+									<span>55</span>
+								</p>
+							</div>
+							<div class="replayContent">
+								<div class="replayBox">
+									<img src="images/icon_photo.jpg" class="comIcon h60" >
+									<p class="title">暗中观察</p>
+									<p class="date"><span>今天</span><span class="time">12:00</span></p>
+									<div class="replay">
+									<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+									</div>
+								</div>
+								<div class="replayBox">
+									<img src="images/icon_photo.jpg" class="comIcon h60" >
+									<p class="title">暗中观察</p>
+									<p class="date"><span>今天</span><span class="time">12:00</span></p>
+									<div class="replay">
+									<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+									</div>
+								</div>
+							</div>
+							<p class="open">
+								<span class="openAnswer">展开<i>2</i>条回复</span>
+								<span class="closeAnswer">收起回复</span>
+							</p>
+						</div>
+						<div class="list">
+							<div class="commentInfo">
+								<img src="images/icon_photo.jpg" class="comIcon h60" >
+								<p class="title">暗中观察</p>
+								<p class="date"><span>今天</span><span class="time">12:00</span></p>
+								<div class="replay">
+								<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+								</div>
+								<p class="heartIcon">
+									<img src="images/icon_heart.png" class="heart" >
+									<img src="images/icon_heartBule.png"  class="heartActive" >
+									<span>55</span>
+								</p>
+							</div>
+							<div class="replayContent">
+								<div class="replayBox">
+									<img src="images/icon_photo.jpg" class="comIcon h60" >
+									<p class="title">暗中观察</p>
+									<p class="date"><span>今天</span><span class="time">12:00</span></p>
+									<div class="replay">
+									<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+									</div>
+								</div>
+								<div class="replayBox">
+									<img src="images/icon_photo.jpg" class="comIcon h60" >
+									<p class="title">暗中观察</p>
+									<p class="date"><span>今天</span><span class="time">12:00</span></p>
+									<div class="replay">
+									<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+									</div>
+								</div>
+							</div>
+							<p class="open">
+								<span class="openAnswer">展开<i>2</i>条回复</span>
+								<span class="closeAnswer">收起回复</span>
+							</p>
+						</div>
+						<div class="list">
+							<div class="commentInfo">
+								<img src="images/icon_photo.jpg" class="comIcon h60" >
+								<p class="title">暗中观察</p>
+								<p class="date"><span>今天</span><span class="time">12:00</span></p>
+								<div class="replay">
+								<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+								</div>
+								<p class="heartIcon">
+									<img src="images/icon_heart.png" class="heart" >
+									<img src="images/icon_heartBule.png"  class="heartActive" >
+									<span>55</span>
+								</p>
+							</div>
+							<div class="replayContent">
+								<div class="replayBox">
+									<img src="images/icon_photo.jpg" class="comIcon h60" >
+									<p class="title">暗中观察</p>
+									<p class="date"><span>今天</span><span class="time">12:00</span></p>
+									<div class="replay">
+									<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+									</div>
+								</div>
+							</div>
+							<p class="open">
+								<span class="openAnswer">展开<i>2</i>条回复</span>
+								<span class="closeAnswer">收起回复</span>
+							</p>
+						</div>
+						<div class="list">
+							<div class="commentInfo">
+								<img src="images/icon_photo.jpg" class="comIcon h60" >
+								<p class="title">暗中观察</p>
+								<p class="date"><span>今天</span><span class="time">12:00</span></p>
+								<div class="replay">
+								<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+								</div>
+								<p class="heartIcon active">
+									<img src="images/icon_heart.png" class="heart" >
+									<img src="images/icon_heartBule.png"  class="heartActive" >
+									<span>55</span>
+								</p>
+							</div>
+							<div class="replayContent">
+								<div class="replayBox">
+									<img src="images/icon_photo.jpg" class="comIcon h60" >
+									<p class="title">暗中观察</p>
+									<p class="date"><span>今天</span><span class="time">12:00</span></p>
+									<div class="replay">
+									<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+									</div>
+								</div>
+								<div class="replayBox">
+									<img src="images/icon_photo.jpg" class="comIcon h60" >
+									<p class="title">暗中观察</p>
+									<p class="date"><span>今天</span><span class="time">12:00</span></p>
+									<div class="replay">
+									<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+									</div>
+								</div>
+								<div class="replayBox">
+									<img src="images/icon_photo.jpg" class="comIcon h60" >
+									<p class="title">暗中观察</p>
+									<p class="date"><span>今天</span><span class="time">12:00</span></p>
+									<div class="replay">
+									<p class="text textCopy">每个时代有每个时代的苦难，而这苦难恰是一个人成熟的催化剂。</p>
+									</div>
+								</div>
+							</div>
+							<p class="open">
+								<span class="openAnswer">展开<i>2</i>条回复</span>
+								<span class="closeAnswer">收起回复</span>
+							</p>
+						</div>
+						
+					</div>
+
+		<!-- 评论--end -->
+		
+		<div class="footer talkFooter focus commentInputBox">
+			<div class="talkInput">
+				<div class="input" contenteditable="true"></div>
+				<img src="images/icon_send.png" class="iconSend" >
+			</div>
+			<ul class="listIcons">
+				<li class="footHeart active">
+					<img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span>
+				</li>
+				<li><img src="images/icon_mess.png" ><span>888</span></li>
+				<li><a href="shareImg.html"><img src="images/icon_shaare2.png" ><span>25</span></a></li>
+			</ul>
+		</div>
+		<!-- <div class="footer talkFooter iphoneBottom commentInputBox">
+			<div class="talkInput">
+				<div class="input" contenteditable="true"></div>
+				<img src="images/icon_send.png" class="iconSend" >
+			</div>
+			<ul class="listIcons">
+				<li class="footHeart active">
+					<img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span>
+				</li>
+				<li><img src="images/icon_mess.png" ><span>888</span></li>
+				<li><a href="shareImg.html"><img src="images/icon_shaare2.png" ><span>25</span></a></li>
+			</ul>
+		</div>
+		<div class="footer talkFooter replayInputBox">
+			<div class="talkInput">
+				<div class="input" contenteditable="true"></div>
+				<img src="images/icon_send.png" class="iconSend" >
+			</div>
+		</div> -->
+		<div class="tipBg"></div>
+		<div class="tipBox">
+			<p class="copyText" id="copytextBtn" data-clipboard-text=''><a href="javascript:;" >复制文本</a></p>
+			<p class="copyLink" id="copylinkBtn" data-clipboard-text=''><a href="javascript:;">复制链接</a></p>
+			<p class="delete"><a href="javascript:;">删除</a></p>
+			<p class="tipoff"><a href="tipOff.html">举报</a></p>
+			<p class="cancle"><a href="javascript:;">取消</a></p>
+		</div>
+		<div class="toastTip">关注成功</div>
+		<!-- 长按复制弹窗--end -->
+		
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/commen.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clipboard.min.js" type="text/javascript" charset="utf-8"></script> 
+		<script src="js/copyText.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//获取屏幕高度
+				var Wheight = window.innerHeight;
+				var bottomHeight = $(".footer").outerHeight();
+				$("body").height(Wheight)
+				
+				//按百分比设置不同手机屏图片高度
+				$('.details .indexImg').css({'height':Wheight*0.28});
+				$('.details').css({'height':Wheight-bottomHeight-10});
+				
+				
+				
+				$(".comList").on("click",'.textCopy',function(){
+					$(".list").removeClass("current");
+					$(this).parents(".list").addClass("current");
+					$(".talkFooter").addClass("focus");
+					$(".input").focus();
+				})
+				
+					//输入框输入效果
+					$(".input").keyup(function(){
+						if($(this).html().length){
+							$(".iconSend").show();
+						}else {
+							$(".iconSend").hide();
+						}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				// //滚动到不同区域输入框样式
+				// $(window).bind('scroll',showInput)
+				// function showInput(){
+				// 	var windowScrill = $(window).scrollTop();
+				// 	var detailHeight = $('.details').offset().top;
+				// 	if(windowScrill>detailHeight){
+				// 		$(".talkFooter").addClass("focus");
+				// 	}else {
+				// 		$(".talkFooter").removeClass("focus");
+				// 	}
+				// }
+			// 	//软键盘拉起收回输入框样式
+			// 	$(window).resize(function(){
+			// 		var winHeight = window.innerHeight;
+			// 		if(winHeight<Wheight){
+			// 			//软键盘拉起
+			// 			$(".talkFooter").addClass("focus")
+			// 			$(window).unbind('scroll',showInput);
+			// 		}else {
+			// 			//软键盘收起
+			// 			$(".replayInputBox").hide();
+			// 			$(".commentInputBox").show();
+			// 			if(!$(".input").html().length){
+			// 				showInput()
+			// 				$(window).bind('scroll',showInput);
+			// 			}else {
+			// 				$(".talkFooter").addClass("focus");
+			// 			}
+						
+			// 		}
+			// 	})
+			
+			// 	//评论输入框获取焦点效果
+			// 	$(".talkInput .input").focus(function(){
+			// 		$(".talkFooter").addClass("focus");
+			// 	});
+				
+			// 	//输入框输入效果
+			// 	$(".input").keyup(function(){
+			// 		if($(this).html().length){
+			// 			$(".iconSend").show();
+			// 		}else {
+			// 			$(".iconSend").hide();
+			// 		}
+
+			// 	})
+			// 	//展开/收起回复效果
+				$(".comList").on("click",'.open',function(){
+					$(this).parent().find(".replayContent").slideToggle();
+				 })
+			// 	// $(".open").click(function(){
+			// 		$(this).parent().find(".replayContent").slideToggle();
+			// 		$(this).toggleClass('close');
+			// 		if($(this).hasClass('close')){
+			// 			$(this).find(".openAnswer").hide();
+			// 			$(this).find(".closeAnswer").show();
+			// 		}else{
+			// 			$(this).find(".openAnswer").show();
+			// 			$(this).find(".closeAnswer").hide();
+			// 		}
+			// 	})
+			// 	function replayNum(){
+			// 		$(".list").each(function(){
+			// 			var replayLength = $(this).find(".replayBox").length;
+			// 			if(replayLength){
+			// 				$(".open").removeClass("hide");
+			// 				$(this).find(".openAnswer i").html(replayLength)
+			// 			}else {
+			// 				$(".open").addClass("hide");
+			// 			}
+			// 		})
+			// 	}
+			// 	replayNum();
+				
+				
+				
+			// //发表评论
+			// 		var isreplay = $(".input").hasClass("replayInput");
+			// 		var userName = $(".detailUser span").html();
+			// 		var userPhoto = $(".detailUser img").attr('src');
+			// 		$(".commentInputBox .iconSend").click(function(){
+			// 			var D = new Date();
+			// 			var date = D.getFullYear()+'/'+(D.getMonth()+1)+'/'+D.getDate();
+			// 			var time = D.getHours()+':'+D.getMinutes();
+			// 			var text = $(".commentInputBox .input").html();
+			// 			var strComment = '<div class="list"><div class="commentInfo"><img src="'+userPhoto+'" class="comIcon h60" ><p class="title">'+userName+'</p><p class="date"><span>'+date+'</span><span class="time">'+time+'</span></p><div class="replay"><p class="text textCopy">'+text+'</p></div><p class="heartIcon"><img src="images/icon_heart.png" class="heart" ><img src="images/icon_heartBule.png"  class="heartActive" ><span>0</span></p></div><div class="replayContent" ></div><p class="open hide"><span class="openAnswer">展开<i>0</i>条回复</span><span class="closeAnswer">收起回复</span></p></div>'
+			// 			$(".comList").prepend(strComment);
+			// 			$(".input").html('');
+			// 			$(".iconSend").hide();	
+			// 		})
+			// 		//回复评论
+			// 		$(".comList").on("click",'.replay',function(){
+			// 			$(".replayInputBox").show();
+			// 			$(".commentInputBox").hide();
+			// 			$(".replayInputBox .input").focus();
+			// 			// $(".talkFooter.replayInputBox div[contenteditable]:empty:before").css({'content':'回复'})
+			// 			$(this).parents(".list").find(".replayContent").addClass("replyCon");
+			// 		})
+			// 		$(".replayInputBox .iconSend").click(function(){
+			// 			var D = new Date();
+			// 			var date = D.getFullYear()+'/'+(D.getMonth()+1)+'/'+D.getDate();
+			// 			var time = D.getHours()+':'+D.getMinutes();
+			// 			var text = $(".replayInputBox .input").html();
+			// 			var strReplay = '<div class="replayBox"><img src="'+userPhoto+'" class="comIcon h60" ><p class="title">'+userName+'</p><p class="date"><span>'+date+'</span><span class="time">'+time+'</span></p><div class="replay"><p class="text textCopy">'+text+'</p></div></div>';
+			// 			var replayNum =parseInt($(".replyCon").next(".open").find("i").html());
+			// 			$(".replyCon").append(strReplay).show();
+			// 			$(".replyCon").next(".open").addClass("close").removeClass("hide");
+			// 			$(".replyCon").next(".open").find(".openAnswer").hide();
+			// 			$(".replyCon").next(".open").find(".closeAnswer").show();
+			// 			$(".replyCon").next(".open").find("i").html(replayNum+1);
+			// 			$(".replayContent").removeClass("replyCon");
+			// 			$(".replyCon").show();
+			// 			$(".replyCon").find(".openAnswer").hide();
+			// 			$(".replyCon").find(".closeAnswer").show();
+			// 			$(".replayInputBox").hide();
+			// 			$(".commentInputBox").show();
+			// 			$(".input").html('');
+			// 			$(".iconSend").hide();
+			// 		})
+				
+
+				//收藏点击效果
+				$(".footHeart").click(function(){
+					$(this).toggleClass('active');
+						var num = parseInt($(this).find('span').html());
+						if($(this).hasClass("active")){
+							$(this).find('span').html(parseInt(num+1))
+						}else {
+							$(this).find('span').html(num-1)
+						}
+				})
+				$(".comList").on("click",'.heartIcon',function(){
+					$(this).toggleClass('active');
+					var num = parseInt($(this).find('span').html());
+					if($(this).hasClass("active")){
+						$(this).find('span').html(parseInt(num+1))
+					}else {
+						$(this).find('span').html(num-1)
+					}
+				})
+
+				
+				
+				
+			})
+		</script>
+	</body>
+</html>

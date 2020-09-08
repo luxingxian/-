@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<style>
+		    html, body {
+		      position: relative;
+		      height: 100%;
+		    }
+		    body {
+		      background: #eee;
+		      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+		      font-size: 14px;
+		      color:#000;
+		      margin: 0;
+		      padding: 0;
+		    }
+		    .swiper-container {
+		      width: 100%;
+		      height: 100%;
+		    }
+		    .swiper-slide {
+		      text-align: center;
+		      font-size: 18px;
+		      background: #eee;
+		      display: -webkit-box;
+		      display: -ms-flexbox;
+		      display: -webkit-flex;
+		      display: flex;
+		      -webkit-box-pack: center;
+		      -ms-flex-pack: center;
+		      -webkit-justify-content: center;
+		      justify-content: center;
+		      -webkit-box-align: center;
+		      -ms-flex-align: center;
+		      -webkit-align-items: center;
+		      align-items: center;
+			  transition: 300ms;
+			  /* transform: scale(0.6); */
+		    }
+			.swiper-slide-active,.swiper-slide-duplicate-active{
+					transform: scale(1.5)!important;
+			}
+		  </style>
+	</head>
+	<body style="padding-bottom: 3.0625rem; background-color: #f6f6f6;">
+		<div class="careHeader"></div>
+		<div class="mainSwiper">
+		
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="careContent">
+						<a href="details.html">
+						<div class="careMain">
+							<div class="mainImg"><img src="images/bnner_1.png" alt=""></div>
+							<div class="text">
+								<p>我的笑容背后里</br>藏着无数的秘密，</br>而我在等着那个</br>懂我的人</p>
+								<p class="careAuthor">--<span>三毛</span> <span>《沙哈拉的故事》</span></p>
+							</div>
+							</a>
+							<ul class="listIcons">
+								<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+								<li>
+									<img src="images/icon_mess.png" alt="">
+									<span>66</span>
+								</li>
+								<li>
+									<a href="shareImg.html">
+									<img src="./images/icon_shaare2.png" alt="">
+									<span>28</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="careContent">
+						<a href="details.html">
+						<div class="careMain">
+							<div class="mainImg"><img src="images/LOGO.png" alt=""></div>
+							<div class="text">
+								<p>我的笑容背后里</br>藏着无数的秘密，</br>而我在等着那个</br>懂我的人</br>来揭开这些秘密我的笑容背后里</br>藏着无数的秘密</p>
+								<p class="careAuthor">--<span>三毛</span> <span>《沙哈拉的故事》</span></p>
+							</div>
+							</a>
+							<ul class="listIcons">
+								<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+								<li>
+									<img src="images/icon_mess.png" alt="">
+									<span>66</span>
+								</li>
+								<li>
+									<a href="shareImg.html">
+									<img src="./images/icon_shaare2.png" alt="">
+									<span>28</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="careContent">
+						<a href="details.html">
+						<div class="careMain">
+							<div class="mainImg"><img src="images/pic.jpg" alt=""></div>
+							<div class="text">
+								<p>我的笑容背后里</br>藏着无数的秘密，</br>而我在等着那个</br>懂我的人</br>来揭开这些秘密我的笑容背后里</br>藏着无数的秘密</p>
+								<p class="careAuthor">--<span>三毛</span> <span>《沙哈拉的故事》</span></p>
+							</div>
+							</a>
+							<ul class="listIcons">
+								<li class="iconHeart"><img src="images/icon_heart.png" class="heart"><img src="images/icon_heartBule.png" class="heartActive" ><span>23</span></li>
+								<li>
+									<img src="images/icon_mess.png" alt="">
+									<span>66</span>
+								</li>
+								<li>
+									<a href="shareImg.html">
+									<img src="./images/icon_shaare2.png" alt="">
+									<span>28</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li>
+					<a href="index.html">首页</a>
+				</li>
+				<li class="active">
+					<a href="javascript:;">精选</a>
+				</li>
+				<li class="release">
+					<a href="publishCopy.html">发布</a>
+				</li>
+				<li>
+					<a href="message.html">消息</a>
+					<span class="numTip">4</span>
+				</li>
+				<li>
+					<a href="profile.html">我</a>
+				</li>
+			</ul>
+		</div>
+		<div class="tipBg"></div>
+		<div class="tipBox">
+			<p class="copyText" id="copytextBtn" data-clipboard-text=''><a href="javascript:;" >复制文本</a></p>
+			<p class="copyLink" id="copylinkBtn" data-clipboard-text=''><a href="javascript:;">复制链接</a></p>
+			<p class="tipoff"><a href="tipOff.html">举报</a></p>
+			<p class="cancle"><a href="javascript:;">取消</a></p>
+		</div>
+		<div class="toastTip">关注成功</div>
+		<!-- 长按复制弹窗--end -->
+	<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/clipboard.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/copyText.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/commen.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			var swiper = new Swiper('.swiper-container', {
+			      slidesPerView: 1.5,
+				  centeredSlides: true,
+					centeredSlidesBounds: true,
+				  loop: true
+			    });
+			//计算内容高度
+			var wHeight = window.innerHeight;
+			var imgHeight = $(".mainImg").outerHeight();
+			var headHeight = $(".careHeader").outerHeight();
+			var footHeight = $(".footer").outerHeight();
+			var mainHeight = wHeight-headHeight-footHeight;
+			var textHeight = mainHeight-imgHeight;
+			$(".careMain").outerHeight(mainHeight*0.7);
+			$(".mainSwiper").outerHeight(mainHeight);
+			// $(".careMain .text").outerHeight(textHeight);
+			
+		})
+	</script>
+	</body>
+</html>

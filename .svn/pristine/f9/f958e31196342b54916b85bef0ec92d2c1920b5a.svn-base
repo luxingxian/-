@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+	</head>
+	<body style="padding-bottom: 3.0625rem;">
+		<div class="navBar">
+			<div class="back">
+			</div>
+			<div class="title">消息</div>
+			<div class="rightIcon">
+			</div>
+		</div>
+		<!-- ---nav   end-- -->
+		<div class="messTable">
+<!-- 			<a href="comment.html">
+				<div class="comment">
+					<img src="images/icon_comment.png" class="iconpre" >
+					<p>评论</p>
+					<img src="images/icon_lt.png" alt="" class="lt" >
+				</div>
+			</a> -->
+			<a href="notationList.html">
+				<div class="notation">
+					<img src="images/icon_notice.png" class="iconpre" >
+					<p>通知</p>
+					<img src="images/icon_lt.png" alt="" class="lt" >
+				</div>
+			</a>
+		</div>
+		<div class="messTitle">
+			全部私信
+		</div>
+		<div class="messList messageBox">
+			<a href="privateLetter.html">
+			<div class="list">
+				<div class="photo">
+					<img src="images/icon_photo.jpg" class="h60" >
+					<span class="tipNum">123</span>
+				</div>
+				<div class="messart">
+					<p class="name">记仇开启娃哈哈<span><i>5/28</i> <i>12:56</i></span></p>
+					<p class="messInfo ellipsis">发表作品时，未确认发表，返回再</p>
+				</div>
+			</div>
+			</a>
+			<a href="privateLetter.html">
+			<div class="list">
+				<div class="photo">
+					<img src="images/icon_photo.jpg" class="h60" >
+					<span class="tipNum">13</span>
+				</div>
+				<div class="messart">
+					<p class="name">记仇开启娃哈哈<span><i>5/28</i> <i>12:56</i></span></p>
+					<p class="messInfo ellipsis">发表作品时，未确认发表，返回再发表作品时，未确认发表，返回再</p>
+				</div>
+			</div>
+			</a>
+			<a href="privateLetter.html">
+			<div class="list">
+				<div class="photo">
+					<img src="images/icon_photo.jpg" class="h60" >
+					<span class="tipNum">3</span>
+				</div>
+				<div class="messart">
+					<p class="name">记仇开启娃哈哈<span><i>5/28</i> <i>12:56</i></span></p>
+					<p class="messInfo ellipsis">发表作品时，未确认发表，返回再</p>
+				</div>
+			</div>
+			</a>
+			<a href="privateLetter.html">
+			<div class="list">
+				<div class="photo">
+					<img src="images/icon_photo.jpg" class="h60" >
+					<span class="tipNum">13</span>
+				</div>
+				<div class="messart">
+					<p class="name">记仇开启娃哈哈<span><i>5/28</i> <i>12:56</i></span></p>
+					<p class="messInfo ellipsis">发表作品时，未确认发表，返回再发表作品时，未确认发表，返回再</p>
+				</div>
+			</div>
+			</a>
+		</div>
+		<div class="footer iphoneBottom">
+			<ul>
+				<li>
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					<a href="careFull.html">精选</a>
+				</li>
+				<li class="release">
+					<a href="publishCopy.html">发布</a>
+				</li>
+				<li class="active">
+					<a href="javascript:;">消息</a>
+					<span class="numTip">4</span>
+				</li>
+				<li>
+					<a href="profile.html">我</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

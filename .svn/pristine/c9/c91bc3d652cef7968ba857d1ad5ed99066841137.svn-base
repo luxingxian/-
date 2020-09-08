@@ -1,0 +1,498 @@
+body {
+	font-family:宋体i,'simsun'; 
+	font-weight:normal;
+	position: relative;
+	
+}
+.pTop {
+	padding-top: 2.8125rem;
+}
+.footer {
+	height: 3.0625rem;
+	line-height: 3.0625rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #eee;
+	box-shadow: 0 0 10px #eee;
+	background-color: #fff;
+	}
+.footer ul {
+	display: flex;
+}
+.footer ul li {
+	 flex: 1;
+	 text-align: center;
+	 position: relative;
+}
+.footer ul li.release a {
+	height: 1.875rem;
+	line-height: 1.875rem;
+	width: 3.125rem;
+	background-color: #57cdd4;
+	color: #fff;
+	border-radius: 0.25rem;
+	margin-top: 0.59375rem;
+}
+.footer ul li a {
+	display: inline-block;
+	color: #bebebe;
+	font-size: 0.9375rem;
+}
+.footer .active a{
+	color: #57cdd4;
+	font-weight: bold;
+	font-size: 1rem;
+}
+.footer .numTip {
+	height: 0.75rem; 
+	line-height: 0.75rem;
+	width: auto;
+	background-color: #ff5033;
+	border-radius: 0.625rem;
+	color: #fff;
+	font-size: 0.5625rem;
+	padding: 0 0.25rem;
+	box-sizing: border-box;
+	min-width: 0.75rem;
+	position: absolute;
+	top: 0.5rem;
+	left: 60%;
+}
+/* ------footer--end------ */
+.navBar { 
+	display: flex;
+	height: 2.8125rem;
+	line-height: 2.8125rem;
+	border-bottom: 1px solid #f6f6f6;
+	background-color: #fff;
+	padding: 0 4%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.navBar.noborder {
+	border: 0;
+}
+.navBar div.title {
+	 width: 60%;
+	 text-align: center;
+	 color: #222;
+	 font-size: 1.0625rem;
+}
+.navBar div.back img {
+	height: 0.75rem;
+	width: auto;
+}
+.navBar div.rightIcon img {
+	height: 1.125rem;
+	width: auto;
+}
+.navBar div.back {
+	text-align: left;
+}
+.navBar div.back a {
+	color: #999;
+	font-size: 0.875rem;
+}
+.navBar div.rightIcon {
+	text-align: right;
+}
+.navBar div.back,.navBar div.rightIcon {
+	flex: 1;
+}
+.navBar div.rightIcon a {
+	font-size: 0.875rem;
+	color: #57cdd4;
+}
+/* navBar----end */
+.topBar {
+	height: 2.8125rem;
+	line-height: 2.8125rem;
+	border-bottom: 1px solid #eee;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.topBar ul {
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+}
+.topBar ul li {
+	flex: 1;
+	text-align: center;
+	position: relative;
+}
+.topBar ul li a {
+	color: #999;
+	font-size: 1rem;
+	user-select: none;
+}
+.topBar ul li.active a {
+	color: #57cdd4;
+	font-weight: 600;
+}
+.topBar ul li.active::after {
+	content: '';
+	height:0.125rem;
+	width: 1.5rem;
+	background-color: #57cdd4;
+	position: absolute;
+	bottom: 0.125rem;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+
+
+/* index topBar----end */
+
+.copyList {
+	padding: 0.3125rem 0.9375rem 0 0.9375rem;
+}
+.authorName {
+	height: 3.25rem;
+	padding-top: 0.75rem;
+	box-sizing: border-box;
+}
+.authorName img {
+	height:1.875rem;
+	width: 1.875rem;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	padding-right: 0.625rem;
+}
+.authorName h2 {
+	font-size: 0.9375rem;
+	color: #222;
+}
+.authorName .time {
+	color: #999;
+	font-size: 0.625rem;
+}
+.listText {
+	background-color: #fff;
+}
+.listText .text {
+	padding: 1.25rem 0.9375rem;
+	border-bottom: 1px solid #eee;
+}
+.indexImg {
+	width: 100%;
+	height: 10.9375rem;
+}
+.listText .text p{
+	color: #222;
+	font-size: 0.9375rem;
+	line-height: 1.5rem;
+}
+.listIcons {
+	display: flex;
+}
+.listIcons li {
+	flex: 1;
+	font-size: 0.875rem;
+	color: #999;
+	height:2.875rem;
+	line-height:2.875rem;
+	text-align: center;
+}
+.listIcons li a {
+	user-select: none;
+}
+.listIcons li img {
+	width: 0.875rem;
+	height: auto;
+	margin-right:0.25rem;
+}
+.listIcons .iconHeart .heartActive {
+	display: none;
+}
+.iconHeart.active .heartActive {
+	display: inline-block;
+}
+.iconHeart.active .heart {
+	display: none;
+}
+.iconHeart.active span {
+	color: #57CDD4;
+}
+
+/* 文案列表--end */
+.attendContent {
+	padding:3.75rem  0.875rem 0.9375rem 0.875rem;
+	background-color: #fff;
+	margin-top: 0.625rem;
+}
+.attendContent textarea {
+	width: 100%;
+	padding: 0.625rem;
+	line-height: 1.5625rem;
+	box-sizing: border-box;
+	height: 11.25rem;
+	color: #222;
+	font-size: 0.9375rem;
+}
+.numtip {
+	text-align: right;
+	color: #666;
+}
+.fileInput {
+	display: block;
+	height: 6.875rem;
+	width: 6.875rem;
+	background: url(../images/icon_file.jpg) no-repeat;
+	background-size: 6.875rem 6.875rem;
+	
+}
+.fileInput input {
+	display: none;
+}
+/* .imgView {
+	height: 6.875rem;
+	width: 6.875rem;
+	position: relative;
+	box-shadow: 0 0 0.625rem #f6f6f6;
+	display: none;
+}
+.imgView img{
+	height: 100%;
+	width: 100%;
+	border-radius: 0.25rem;
+}
+.imgView .delete {
+	height: 0.875rem;
+	width: 0.875rem;
+	position: absolute;
+	top: -0.3125rem;
+	right: -0.3125rem;
+} */
+/* 发布文案、参与话题，文字输入和图片选择部分---end */
+.popBg {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255,255,255,0);
+	z-index: 100;
+	display: none;
+}
+.popBox {
+	width: 60%;
+	background-color: #fff;
+	border-radius: 0.25rem;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	text-align: center;
+	box-shadow: 0 0 0.9375rem #ccc;
+}
+.popBox .text {
+	color: #222;
+	font-size: 1rem;
+	padding: 1.875rem 0;
+}
+.popBox .btns {
+	display: flex;
+	padding: 0.375rem 0;
+	border: 1px solid #eee;
+}
+.popBox .btns a {
+	flex: 1;
+	text-align: center;
+	height: 1.875rem;
+	line-height: 1.875rem;
+	font-size: 0.75rem;
+	color: #999;
+}
+.popBox .btns a.sure {
+	border-left: 1px solid #eee;
+	color: #57cdd4;
+}
+/* 编辑页面返回弹窗提示 */
+
+.searchInput {
+	width: 75%;
+	position: relative;
+}
+.searchInput input {
+	color: #222;
+	font-size: 0.875rem;
+	width: 100%;
+	outline: none;
+	border: 0;
+	height: 1.875rem;
+	background-color: #f6f6f6;
+	border-radius: 1.875rem;
+	padding: 0.3125rem 1.875rem;
+	box-sizing: border-box;
+}
+.searchInput img {
+	height: 0.75rem;
+	width: auto;
+	position: absolute;
+	top: 1.0625rem;
+}
+.searchInput .searchIcon {
+	left: 0.875rem;
+}
+.searchInput .removeIcon {
+	right: 0.6875rem;
+	display: none;
+}
+.searchNavBar .back{
+	display: none;
+}
+.searchNavBar .searchInput {
+	width: 90%;
+	transition: all 0.5s;
+}
+.searchNavBar .rightIcon {
+	display: none;
+}
+.searchCancle {
+	display: none;
+}
+.searchNavBar .searchCancle {
+	display: block;
+}
+/* 搜索，选择话题头部搜索框 */
+.tipBg {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 101;
+	display: none;
+}
+.tipBox{
+	background-color: #fff;
+	position: fixed;
+	bottom: -40rem;
+	left: 0;
+	right: 0;
+	z-index: 102;
+	border-radius: 0.625rem 0.625rem 0 0;
+	box-shadow:0 0 10px #eee ;
+	transition: all .5s;
+}
+.tipBox.show {
+	bottom: 0;
+	
+}
+.tipBox p a{
+	display: block;
+	height: 3.125rem;
+	line-height: 3.125rem;
+	text-align: center;
+	color: #222;
+	font-size: 1rem;	
+}
+.tipBox p.cancle a{
+	color: #999;
+	font-size: 0.9375rem;
+	background-color: #f6f6f6;
+}
+/* 长按复制文本链接举报弹窗 */
+/* ======公共小样式============= */
+
+.ellipsis{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.moreEllipsis {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+img.h60 {
+	height: 1.875rem;
+	width: 1.875rem;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.date {
+	color: #999;
+	font-size: 0.6875rem;
+}
+.date .time {
+	margin-left:0.75rem ;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+textarea::-webkit-input-placeholder {
+	color: #999;
+}
+textarea {
+	border: 0;
+	outline: none;
+	resize: none;
+}
+/* 验证不通过提示添加warn类名 */
+input.warn::-webkit-input-placeholder{
+	color:#f33;
+}
+textarea.warn::-webkit-input-placeholder{
+	color:#f33;
+}
+.toast {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: 0,0,0,.4;
+	display: none;
+}
+
+.toastTip {
+	height: 1.875rem;
+	line-height: 1.875rem;
+	width: 30%;
+	background-color: rgba(0,0,0,.7);
+	color: #fff;
+	font-size: 0.875rem;
+	text-align: center;
+	border-radius: 0.25rem;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,0);
+	display: none;
+}
+#gray {
+	color: #999;
+}
+#target {
+	user-select: none;
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+		.iphoneBottom {
+        padding-bottom: 34px !important;
+    }
+}
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    .iphoneBottom {
+        padding-bottom: 34px !important;
+    }
+}
+/* 解决iphone X系列底部横条遮挡问题 */
+
+
+
+
+/* 公用样式抽取 */

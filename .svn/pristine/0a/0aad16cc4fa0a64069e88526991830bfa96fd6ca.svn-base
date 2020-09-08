@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body style="background-color: #f6f6f6;">
+		<div class="navBar">
+			<div class="back">
+				<a href="details.html">取消</a>
+			</div>
+			<div class="title">举报</div>
+			<div class="rightIcon">
+				<a href="details.html">完成</a>
+			</div>
+		</div>
+		<!-- ---nav   end-- -->
+		<div class="tipOff pTop">
+			<label for="result" class="checked" >
+				<input type="radio" name="result" value="" checked />违规违法
+			</label>
+			<label for="result">
+				<input type="radio" name="result" value="" class=""/>色情不健康
+			</label>
+			<label for="result" >
+				<input type="radio" name="result" value="" checked />广告垃圾
+			</label>
+			<label for="result">
+				<input type="radio" name="result" value="" class=""/>其他
+			</label>
+			<textarea class="tipoffText" rows="" cols="" placeholder="写下举报的详细情况或者修改建议~"></textarea>
+		</div>
+		
+		
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".tipOff label").click(function(){
+					$(".tipOff label").removeClass("checked")
+					$(this).addClass("checked");
+				});
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+	</head>
+	<body style="background-color: #fff;">
+		<div class="navBar">
+			<div class="back">
+				<a href="notationList.html"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="title">通知</div>
+			<div class="rightIcon">
+			</div>
+		</div>
+		<!-- ---nav   end-- -->
+		<div class="notationText pTop">
+			<p class="title">通知的标题知的标题知的标题知的标题知的标题知的标题</p>
+			<p class="date"><span>2020/06/27</span><span class="time">14:28</span></p>
+			<p class="text">通知内您关注的huahua花花刚发布了新的作品容通知内容通您关注的huahua花花刚发布了新的作品知内容通知内容您关注的huahua花花刚发布了新的作品通知内容通知内容通知内容您关注的huahua花花刚发布了新的作品。</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body style="background-color: #f6f6f6;">
+		<div class="topBar">
+			<ul>
+				<li><a href="index.html">发现</a></li>
+				<li><a href="javascript:;">热门</a></li>
+				<li class="active"><a href="javascript:;">话题</a></li>
+			</ul>
+		</div>
+		<!-- topBar---end -->
+		<div class="subNav pTop">
+			<a href="search.html">
+			<div class="searchBox">
+				<input type="text" name="" id="" value="" placeholder="微商朋友圈文案" disabled="disabled" />
+			</div>
+			</a>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="navText active">六月</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">夏天</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">问候</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">正能量</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">节日</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">相关节日</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">问候</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">签名说说</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">问候</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">正能量</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">签名</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="navText">节日</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		<div class="talkBox">
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代
+				</p>
+				<p class="num"><span>28</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事
+				</p>
+				<p class="num"><span>38</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代
+				</p>
+				<p class="num"><span>8</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代遗憾的事
+				</p>
+				<p class="num"><span>3528</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代遗憾的事遗憾的事
+				</p>
+				<p class="num"><span>3</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代
+				</p>
+				<p class="num"><span>328</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代
+				</p>
+				<p class="num"><span>3528</span>人参与</p>
+				</a>
+			</div>
+			<div class="talkList">
+				<a href="talk.html">
+				<p class="talkText">
+					学生时代遗憾的事学生时代
+				</p>
+				<p class="num"><span>528</span>人参与</p>
+				</a>
+			</div>
+			
+		</div>
+		
+		<!-- 话题列表列表--end -->
+		<div class="footer iphoneBottom">
+			<ul>
+				<li class="active">
+					<a href="javascript:;">首页</a>
+				</li>
+				<li>
+					<a href="careFull.html">精选</a>
+				</li>
+				<li class="release">
+					<a href="publishCopy.html">发布</a>
+				</li>
+				<li>
+					<a href="message.html">消息</a>
+					<span class="numTip">4</span>
+				</li>
+				<li>
+					<a href="profile.html">我</a>
+				</li>
+			</ul>
+		</div>
+		<!-- footer----end -->
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				var swiper = new Swiper('.swiper-container', {
+					slidesPerView : 5.5
+					
+				})
+				$(".subNav .navText").click(function(){
+					$(".subNav .navText").removeClass('active');
+					$(this).addClass("active");
+				})
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>大文案</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+	</head>
+	<body>
+		<!-- 私信 -->
+		<div class="navBar">
+			<div class="back">
+				<a href="message.html"><img src="images/icon_back.png" alt=""></a>
+			</div>
+			<div class="title">哼哼哼豪横</div>
+			<div class="rightIcon">
+			</div>
+		</div>
+		<!-- ---nav   end-- -->
+		<div class="letterContent">
+			<div class="letterList">
+				<p class="date"><span>2020/06/27</span><span class="time">10:02</span></p>
+				<div class="letterMess">
+					<img src="images/icon_photo2.jpg" class="h60" >
+					<p class="name">哼哼哼豪横</p>
+					<p class="letterText">个性文案，为什么不能添加某些文字呀，到底是什么原因呀？</p>
+				</div>
+			</div>
+			<div class="letterList right">
+				<p class="date"><span>2020/06/27</span><span class="time">10:02</span></p>
+				<div class="letterMess clearfix">
+					<img src="images/icon_photo.jpg" class="h60" >
+					<p class="name">大文案君</p>
+					<p class="letterText">为了防止某些人发不健康的内容，做了特殊文字处理，忘理解哈~</p>
+				</div>
+			</div>
+			<div class="letterList">
+				<p class="date"><span>2020/06/27</span><span class="time">10:02</span></p>
+				<div class="letterMess">
+					<img src="images/icon_photo2.jpg" class="h60" >
+					<p class="name">哼哼哼豪横</p>
+					<p class="letterText">你是谁？</p>
+				</div>
+			</div>
+			<div class="letterList right">
+				<p class="date"><span>2020/06/27</span><span class="time">10:02</span></p>
+				<div class="letterMess clearfix">
+					<img src="images/icon_photo.jpg" class="h60" >
+					<p class="name">大文案君</p>
+					<p class="letterText">我是大文案君，欢迎关注收藏~</p>
+				</div>
+			</div>
+			<div class="letterList">
+				<p class="date"><span>2020/06/27</span><span class="time">10:02</span></p>
+				<div class="letterMess">
+					<img src="images/icon_photo2.jpg" class="h60" >
+					<p class="name">哼哼哼豪横</p>
+					<p class="letterText">你好啊</p>
+				</div>
+			</div>
+			<div class="letterList right">
+				<p class="date"><span>2020/06/27</span><span class="time">10:02</span></p>
+				<div class="letterMess clearfix">
+					<img src="images/icon_photo.jpg" class="h60" >
+					<p class="name">大文案君</p>
+					<p class="letterText">你好，我是大文案君，欢迎关注收藏~</p>
+				</div>
+			</div>
+		</div>
+		<div class="footInput">
+			<div class="textarea" contenteditable="true"></div>
+			<img src="images/icon.png" class="icons">
+			<img src="images/icon_send.png" class="send">
+		</div>
+		<script src="js/jquery-2.0.2.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				// 发送图标切换
+				$(".textarea").keyup(function(){
+					if($(this).html().length) {
+						$(".icons").hide();
+						$(".send").show();
+					}else {
+						$(".icons").show();
+						$(".send").hide();
+					}
+				})
+				// 发送图标点击效果
+				$(".send").click(function(){
+					var text = $(".textarea").html();
+					var D = new Date();
+					var date = D.getFullYear()+'/'+(D.getMonth()+1)+'/'+D.getDate();
+					var time = D.getHours()+':'+D.getMinutes();
+					var str = '<div class="letterList right"><p class="date"><span>'+date+'</span><span class="time">'+time+'</span></p><div class="letterMess clearfix"><img src="images/icon_photo.jpg" class="h60" ><p class="name">大文案君</p><p class="letterText">'+text+'</p></div></div>';
+					$(".letterContent").append(str);
+					$(".textarea").html('');
+					$(".icons").show();
+					$(".send").hide();
+					window.scrollTo(0, document.body.clientHeight||document.documentElement.clientHeight);
+				})
+			})
+		</script>
+	</body>
+</html>

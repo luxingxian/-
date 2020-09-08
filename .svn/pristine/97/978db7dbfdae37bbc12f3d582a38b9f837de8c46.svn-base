@@ -1,0 +1,70 @@
+
+$(function() {
+	$(".back").click(function() {
+		$(".popBg").fadeIn();
+		$(".cancle").click(function() {
+			$(this).parents(".popBg").fadeOut();
+		})
+	})
+})
+//点击关注提示语并改变样式
+//判断关注状态显示对应样式
+if ($(".focusBtn").html() == '已关注') {
+	$(".focusBtn").attr('id', "gray");
+} else {
+	$(".focusBtn").attr('id', "");
+}
+//点击关注
+$(".focusBtn").click(function() {
+	if ($(this).html() == '关注' || $(this).html() == '+关注') {
+		$(".toastTip").fadeIn().delay(1000).fadeOut();
+		$(this).html('已关注');
+		$(this).attr('id', "gray");
+	}
+})
+
+//点赞点击效果
+$(".iconHeart").click(function() {
+	$(this).toggleClass("active");
+	var num = parseInt($(this).find('span').html());
+	if ($(this).hasClass("active")) {
+		$(this).find('span').html(parseInt(num + 1))
+	} else {
+		$(this).find('span').html(num - 1)
+	}
+})
+
+
+
+
+
+
+//解决iphoneX系列手机底部横条遮挡问题
+function isIphoneX() {
+	if (/iphone/gi.test(window.navigator.userAgent)) {
+		/* iPhone X、iPhone XS */
+		var x = (window.screen.width === 375 && window.screen.height === 812);
+		/* iPhone XS Max */
+		var xsMax = (window.screen.width === 414 && window.screen.height === 896);
+		/* iPhone XR */
+		var xR = (window.screen.width === 414 && window.screen.height === 896);
+		if (x || xsMax || xR) {
+			return true;
+		} else {
+			return false;
+		}
+	} else {
+		return false
+	}
+}
+/* 函数使用 */
+if (isIphoneX()) {
+	document.querySelector('.iphoneBottom').style.paddingBottom = "17px";
+}
+
+
+
+//阻止浏览器下拉回弹
+// document.addEventListener('touchmove',function(ev){
+//   ev.preventDefault();
+// },{passive:false});
